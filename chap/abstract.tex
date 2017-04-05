@@ -1,0 +1,17 @@
+% Copyright (c) 2014,2016 Casper Ti. Vector
+% Public domain.
+
+\begin{cabstract}
+随着处理器多核技术的广泛应用，多个程序可以在不同的核上并发执行。然而，并发执行的程序会在底层共享缓存（LLC）层面产生竞争，从而出现严重的性能下降。如何有效地对共享缓存进行调控和优化是被学术界广泛研究的一个问题。现有的解决方案大多数依赖硬件层面对缓存进行划分，从而满足性能或服务质量（QoS）等方面的要求。但是，这些硬件方案都只能在模拟器中进行模拟，并没有在真实系统中实现。直到最近英特尔在服务器级处理器中引入了高速缓存分配技术（CAT）。高速缓存分配技术基于缓存的路（Cache Way），所以只能在粗粒度上进行缓存分配。直接使用高速缓存分配技术进行不重叠的划分，在并发运行的线程数较多时，并不能很好的满足各种各样的优化目标。为了克服这些限制，我们刻意地将部分划分进行重叠，通过精确的重叠控制来提升分配的粒度。
+
+本文提出了一个支持部分共享的高速缓存分配优化框架（CAPS）。它可以在较细的粒度上实现对缓存占用的控制。CAPS基于英特尔高速缓存分配技术，并且可以在真实系统中运行，它主要包含预测和分配两个模块。预测模块负责在任意重叠的缓存分配情况下对每个并发执行程序的缓存失效率和周期指令数进行预测，分配模块负责在给定一个优化目标后生成一个优化分配策略。CAPS可以支持多种优化目标，并且在并发程序数较大时也有很好的兼容性。在本文中我们实现了五种优化策略：失效数最小化，吞吐量最大化，以及三种性能下降指标的最小化。我们对75组并发工作负载进行实验评估，每组负载包括4到15个SPEC CPU2006测试程序。平均来看，相比于自由竞争使用LLC，CAPS可以降低16.96\%的失效数，提升11.11\%的吞吐量，减少8.16\%的平均性能损失，在兼顾公平和性能的指标上提升8.17\%，将性能下降最严重的程序提升23.24\%。
+\end{cabstract}
+
+
+\begin{eabstract}
+In a multicore system, simultaneously executed programs may suffer from performance degradation due to contention on the shared last level cache (LLC). Effective management of LLC has attracted significant research attention. Existing solutions often rely on hardware cache partitioning to ensure performance and quality of service. However, none of these hardware partitioning schemes had been implemented on a real system until Intel introduced Cache Allocation Technology (CAT) to its commodity processors recently. CAT itself implements way partitioning and thus can only allocate at a coarse granularity. It does not scale well for a large thread or program count to serve their various performance goals effectively. We overcome these limitations by deliberately and precisely sharing part of the allocations among programs and cores.
+
+In this paper, we propose Cache Allocation with Partial Sharing (CAPS), a framework that manages shared cache occupancy at a fine granularity. It is implemented on top of CAT, and runs on the real system. CAPS consists of two parts: (1) a prediction model that estimates miss rates and IPCs of a multiprogrammed workload under any partially-overlapping CAT scheme, and (2) a simulated annealing algorithm that outputs a near-optimal solution given a specific performance goal. CAPS is able to support a wide range of performance targets and can scale to a large core count. We demonstrate its flexibility by implementing five policies targeting average MPKI, IPC throughput, average slowdown, fair slowdown and maximum slowdown, respectively. Our evaluation, with 75 workloads ranging from 4-program to 15-program co-run, shows that on average, CAPS can reduce average MPKI by 16.96\%, increase throughput by 11.11\%, cut average slowdown by 8.16\%, improve fair slowdown by 8.17\%, and lower maximum slowdown by 23.24\%, when compared to full-sharing.
+\end{eabstract}
+
+% vim:ts=4:sw=4

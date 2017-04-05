@@ -1,0 +1,1107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{ecnty/global/}
+    \entry{azimi2009enhancing}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c0a7a1274633c4a53948442f6aa99e09}{%
+           family={Azimi},
+           familyi={A\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2d7f9e64d0288190b74e576f51b5596f}{%
+           family={Tam},
+           familyi={T\bibinitperiod},
+           given={David\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5423b6c3f615bcf8f50a54ecfa4417e2}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={Livio},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0cc180f816815b76057e4e06ff75d112}{%
+           family={Stumm},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e3e75a2f5f93a1df49f232c226c77cbe}
+      \strng{fullhash}{5c98b1b585ca4cdd12c4a821ab4a1b79}
+      \strng{authornamehash}{e3e75a2f5f93a1df49f232c226c77cbe}
+      \strng{authorfullhash}{5c98b1b585ca4cdd12c4a821ab4a1b79}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM SIGOPS Operating Systems Review}
+      \field{number}{2}
+      \field{title}{Enhancing operating system support for multicore processors by using hardware performance monitoring}
+      \field{userf}{en}
+      \field{volume}{43}
+      \field{year}{2009}
+      \field{pages}{56\bibrangedash 65}
+      \range{pages}{10}
+    \endentry
+    \entry{chang2006cooperative}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=290e3fb692b05f96c470852b7b9580fb}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Jichuan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{290e3fb692b05f96c470852b7b9580fb}
+      \strng{fullhash}{290e3fb692b05f96c470852b7b9580fb}
+      \strng{authornamehash}{290e3fb692b05f96c470852b7b9580fb}
+      \strng{authorfullhash}{290e3fb692b05f96c470852b7b9580fb}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{In Proceedings of the 33nd Annual International Symposium on Computer Architecture}
+      \field{title}{Cooperative caching for chip multiprocessors}
+      \field{userf}{en}
+      \field{year}{2006}
+    \endentry
+    \entry{chang2014cooperative}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=290e3fb692b05f96c470852b7b9580fb}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Jichuan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4631322896de2f9ab52b4877443eb75e}{%
+           family={Sohi},
+           familyi={S\bibinitperiod},
+           given={Gurindar\bibnamedelima S},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{223c334e1c17fb0aeabd87d245a09018}
+      \strng{fullhash}{223c334e1c17fb0aeabd87d245a09018}
+      \strng{authornamehash}{223c334e1c17fb0aeabd87d245a09018}
+      \strng{authorfullhash}{223c334e1c17fb0aeabd87d245a09018}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM International Conference on Supercomputing 25th Anniversary Volume}
+      \field{title}{Cooperative cache partitioning for chip multiprocessors}
+      \field{userf}{en}
+      \field{year}{2014}
+      \field{pages}{402\bibrangedash 412}
+      \range{pages}{11}
+    \endentry
+    \entry{funaro2016ginseng}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=233f1e2bdadd9f89afb32c7e28d0b560}{%
+           family={Funaro},
+           familyi={F\bibinitperiod},
+           given={Liran},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d1109cfb1c539cf4424fa8616bdf1d73}{%
+           family={Ben-Yehuda},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Orna\bibnamedelima Agmon},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d91dea204b6a8eba92f8f79d6f564a2d}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Assaf},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Denver, CO}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{53b35a8a7465182c9a2b8afec7b16d9b}
+      \strng{fullhash}{53b35a8a7465182c9a2b8afec7b16d9b}
+      \strng{authornamehash}{53b35a8a7465182c9a2b8afec7b16d9b}
+      \strng{authorfullhash}{53b35a8a7465182c9a2b8afec7b16d9b}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 USENIX Annual Technical Conference (USENIX ATC 16)}
+      \field{isbn}{978-1-931971-30-0}
+      \field{title}{Ginseng: Market-Driven LLC Allocation}
+      \field{userf}{en}
+      \field{year}{2016}
+      \field{pages}{295\bibrangedash 308}
+      \range{pages}{14}
+    \endentry
+    \entry{herdrich2016cache}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=45dbfca320b35e552c02f54e1acd4a65}{%
+           family={Herdrich},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d1b63d85f0e632ccd10b474491b4a510}{%
+           family={Verplanke},
+           familyi={V\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=cf66c537aac07b8f494e114616e3e427}{%
+           family={Autee},
+           familyi={A\bibinitperiod},
+           given={Priya},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b999a22986de1d4f569eef6dbf312f7d}{%
+           family={Illikkal},
+           familyi={I\bibinitperiod},
+           given={Ramesh},
+           giveni={R\bibinitperiod}}}%
+        {{hash=49675f951e0ef4743cdf62cfef265258}{%
+           family={Gianos},
+           familyi={G\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=15a4aaded02cd3d4bfc1b813af44e39c}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Ronak},
+           giveni={R\bibinitperiod}}}%
+        {{hash=74a34524abaa4b815c6ee68cd2fcfa6b}{%
+           family={Iyer},
+           familyi={I\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c278392fa8f3c9cf168d9b87bc278ef9}
+      \strng{fullhash}{0eade54674e5b51694783dd230346849}
+      \strng{authornamehash}{c278392fa8f3c9cf168d9b87bc278ef9}
+      \strng{authorfullhash}{0eade54674e5b51694783dd230346849}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE International Symposium on High Performance Computer Architecture (HPCA)}
+      \field{title}{Cache QoS: From concept to reality in the Intel{®} Xeon{®} processor E5-2600 v3 product family}
+      \field{userf}{en}
+      \field{year}{2016}
+      \field{pages}{657\bibrangedash 668}
+      \range{pages}{12}
+    \endentry
+    \entry{hsu2006communist}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=eed30cce4595c694501a7404ef9aaf3e}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Lisa\bibnamedelima R},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7a8cef116d0350a4fedf1f7f049fd612}{%
+           family={Reinhardt},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c8201cec17e164e1dd10a859b7f2dffa}{%
+           family={Iyer},
+           familyi={I\bibinitperiod},
+           given={Ravishankar},
+           giveni={R\bibinitperiod}}}%
+        {{hash=be296db35c31fd91760b8eb57b3db16c}{%
+           family={Makineni},
+           familyi={M\bibinitperiod},
+           given={Srihari},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{fa55747c8d761793937b8b5326078ab4}
+      \strng{fullhash}{5511cd419ab2ee8863e5f0686da02543}
+      \strng{authornamehash}{fa55747c8d761793937b8b5326078ab4}
+      \strng{authorfullhash}{5511cd419ab2ee8863e5f0686da02543}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 15th international conference on Parallel architectures and compilation techniques}
+      \field{title}{Communist, utilitarian, and capitalist cache policies on CMPs: caches as a shared resource}
+      \field{userf}{en}
+      \field{year}{2006}
+      \field{pages}{13\bibrangedash 22}
+      \range{pages}{10}
+    \endentry
+    \entry{hu2016kinect}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=cf4c381b353df93568bb1cd82b61f2d1}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xiameng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3fb1ca9f34e5292ad4c23ecee0a30c24}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaolin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ebc7d1aacdf3e578121755053a958f0f}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lan},
+           giveni={L\bibinitperiod}}}%
+        {{hash=14c1bfe6109a3ad94ac7a363dd2cc1e1}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yingwei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b85c736722ed503c520995a243eb268d}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e04973218fd62c095fab8171c42d09c6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhenlin},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Denver, CO}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{d374a59700a3c8467e22f5b8105990cf}
+      \strng{fullhash}{b2e13b1e754e3cfa9a4c9dfe6931ca28}
+      \strng{authornamehash}{d374a59700a3c8467e22f5b8105990cf}
+      \strng{authorfullhash}{b2e13b1e754e3cfa9a4c9dfe6931ca28}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 USENIX Annual Technical Conference (USENIX ATC 16)}
+      \field{isbn}{978-1-931971-30-0}
+      \field{title}{Kinetic Modeling of Data Eviction in Cache}
+      \field{userf}{en}
+      \field{year}{2016}
+      \field{pages}{351\bibrangedash 364}
+      \range{pages}{14}
+    \endentry
+    \entry{iyer2004cqos}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=74a34524abaa4b815c6ee68cd2fcfa6b}{%
+           family={Iyer},
+           familyi={I\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{74a34524abaa4b815c6ee68cd2fcfa6b}
+      \strng{fullhash}{74a34524abaa4b815c6ee68cd2fcfa6b}
+      \strng{authornamehash}{74a34524abaa4b815c6ee68cd2fcfa6b}
+      \strng{authorfullhash}{74a34524abaa4b815c6ee68cd2fcfa6b}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 18th annual international conference on Supercomputing}
+      \field{title}{CQoS: a framework for enabling QoS in shared caches of CMP platforms}
+      \field{userf}{en}
+      \field{year}{2004}
+      \field{pages}{257\bibrangedash 266}
+      \range{pages}{10}
+    \endentry
+    \entry{kim2004fair}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f10986d25b4151ac93ffd54393dcc18e}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seongbeom},
+           giveni={S\bibinitperiod}}}%
+        {{hash=31475ce187dd15ca252b488302fe6085}{%
+           family={Chandra},
+           familyi={C\bibinitperiod},
+           given={Dhruba},
+           giveni={D\bibinitperiod}}}%
+        {{hash=04785cf886819b30c5534080d51d6107}{%
+           family={Solihin},
+           familyi={S\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{7febfac4790f6ca4e0635d0138715eae}
+      \strng{fullhash}{7febfac4790f6ca4e0635d0138715eae}
+      \strng{authornamehash}{7febfac4790f6ca4e0635d0138715eae}
+      \strng{authorfullhash}{7febfac4790f6ca4e0635d0138715eae}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 13th International Conference on Parallel Architectures and Compilation Techniques}
+      \field{title}{Fair cache sharing and partitioning in a chip multiprocessor architecture}
+      \field{userf}{en}
+      \field{year}{2004}
+      \field{pages}{111\bibrangedash 122}
+      \range{pages}{12}
+    \endentry
+    \entry{lin2008gaining}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=395f344e5ef16d65fd7fb6f5baeb9961}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Jiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=02ebc0410e791a42530766da1c80fad3}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Qingda},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=7c1666d72aed77962a0ee36eade07538}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Xiaoning},
+           giveni={X\bibinitperiod}}}%
+        {{hash=56bda333ab85070cdf1934ac222e12aa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=afa24df8fadadd706de381a7551af02d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=678723b7d5fe26c89fef36bdcbec64f2}{%
+           family={Sadayappan},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6c875d810942cd55065526e72eb0d3d1}
+      \strng{fullhash}{e8617980a801c2293ac3e662a81f9d02}
+      \strng{authornamehash}{6c875d810942cd55065526e72eb0d3d1}
+      \strng{authorfullhash}{e8617980a801c2293ac3e662a81f9d02}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE 14th International Symposium on High Performance Computer Architecture}
+      \field{title}{Gaining insights into multicore cache partitioning: Bridging the gap between simulation and real systems}
+      \field{userf}{en}
+      \field{year}{2008}
+      \field{pages}{367\bibrangedash 378}
+      \range{pages}{12}
+    \endentry
+    \entry{lo2015heracles}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=cac8ebdbf2f8a8f2b7f49f6e737c2649}{%
+           family={Lo},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d54e7adbd6bbd8b4be570eccbb90076c}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Liqun},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a512ef4d66792c9ea377d57d6fa2e640}{%
+           family={Govindaraju},
+           familyi={G\bibinitperiod},
+           given={Rama},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d86fc34f3ab2eed537ffd62d45ef9244}{%
+           family={Ranganathan},
+           familyi={R\bibinitperiod},
+           given={Parthasarathy},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ea87e386461230ec18273b6b4f3d33bc}{%
+           family={Kozyrakis},
+           familyi={K\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{45914ac453bfa7e06f8b54b39dbf8f0d}
+      \strng{fullhash}{58ef4baafcb0d253c0589ac3fc89f8cf}
+      \strng{authornamehash}{45914ac453bfa7e06f8b54b39dbf8f0d}
+      \strng{authorfullhash}{58ef4baafcb0d253c0589ac3fc89f8cf}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM SIGARCH Computer Architecture News}
+      \field{number}{3}
+      \field{title}{Heracles: improving resource efficiency at scale}
+      \field{userf}{en}
+      \field{volume}{43}
+      \field{year}{2015}
+      \field{pages}{450\bibrangedash 462}
+      \range{pages}{13}
+    \endentry
+    \entry{lu2009soft}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=02ebc0410e791a42530766da1c80fad3}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Qingda},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=395f344e5ef16d65fd7fb6f5baeb9961}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Jiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7c1666d72aed77962a0ee36eade07538}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Xiaoning},
+           giveni={X\bibinitperiod}}}%
+        {{hash=56bda333ab85070cdf1934ac222e12aa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=afa24df8fadadd706de381a7551af02d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=678723b7d5fe26c89fef36bdcbec64f2}{%
+           family={Sadayappan},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{1d511aadbb115572952c5977c39d0d26}
+      \strng{fullhash}{4e66b0b62f0c2f1282ad5ad7bf43a72b}
+      \strng{authornamehash}{1d511aadbb115572952c5977c39d0d26}
+      \strng{authorfullhash}{4e66b0b62f0c2f1282ad5ad7bf43a72b}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Parallel Architectures and Compilation Techniques, 2009. PACT'09. 18th International Conference on}
+      \field{title}{Soft-olp: Improving hardware cache performance through software-controlled object-level partitioning}
+      \field{userf}{en}
+      \field{year}{2009}
+      \field{pages}{246\bibrangedash 257}
+      \range{pages}{12}
+    \endentry
+    \entry{luk2005pin}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=e227c1b739af7904c4492b59a480cc8e}{%
+           family={Luk},
+           familyi={L\bibinitperiod},
+           given={Chi-Keung},
+           giveni={C\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=9ca1bbb2c237f978381ac72408fb54d8}{%
+           family={Cohn},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bf14abd032ae4977597dfe92dbcc863c}{%
+           family={Muth},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0dcd909702af5042e9607f19179057c5}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod}}}%
+        {{hash=db8e0751a18f80bfd0d3e5e737f26f6c}{%
+           family={Klauser},
+           familyi={K\bibinitperiod},
+           given={Artur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=13b3b32dcd31d137502276e018f3f025}{%
+           family={Lowney},
+           familyi={L\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3a4cc140a9e79bb345d5ca9958928c9b}{%
+           family={Wallace},
+           familyi={W\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fe4d6d924dd6fd1e25c7b9733fa04d3c}{%
+           family={Reddi},
+           familyi={R\bibinitperiod},
+           given={Vijay\bibnamedelima Janapa},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1604abdffcd9ec6480bbf40324709e75}{%
+           family={Hazelwood},
+           familyi={H\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago, IL, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f2f9332811ab1c841374413118222a32}
+      \strng{fullhash}{41105b059a2efbb64abfe147626fc9fb}
+      \strng{authornamehash}{f2f9332811ab1c841374413118222a32}
+      \strng{authorfullhash}{41105b059a2efbb64abfe147626fc9fb}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2005 ACM SIGPLAN Conference on Programming Language Design and Implementation}
+      \field{isbn}{1-59593-056-6}
+      \field{series}{PLDI '05}
+      \field{title}{Pin: Building Customized Program Analysis Tools with Dynamic Instrumentation}
+      \field{userf}{en}
+      \field{year}{2005}
+      \field{pages}{190\bibrangedash 200}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/1065010.1065034
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1065010.1065034
+      \endverb
+      \keyw{dynamic compilation,instrumentation,program analysis tools}
+    \endentry
+    \entry{manikantan2012probabilistic}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=7358d142fc147694f992729fccbe3f16}{%
+           family={Manikantan},
+           familyi={M\bibinitperiod},
+           given={Raman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e3d83bb6603145a64dc727b57a1357f7}{%
+           family={Rajan},
+           familyi={R\bibinitperiod},
+           given={Kaushik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=60a9557b1b65de04f66f9cc5710e3f62}{%
+           family={Govindarajan},
+           familyi={G\bibinitperiod},
+           given={Ramaswamy},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{434ce3847a197b717474ad187c425989}
+      \strng{fullhash}{434ce3847a197b717474ad187c425989}
+      \strng{authornamehash}{434ce3847a197b717474ad187c425989}
+      \strng{authorfullhash}{434ce3847a197b717474ad187c425989}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM SIGARCH computer architecture news}
+      \field{number}{3}
+      \field{title}{Probabilistic shared cache management (PriSM)}
+      \field{userf}{en}
+      \field{volume}{40}
+      \field{year}{2012}
+      \field{pages}{428\bibrangedash 439}
+      \range{pages}{12}
+    \endentry
+    \entry{olken1981efficient}{report}{}
+      \name{author}{1}{}{%
+        {{hash=923b1a04178238bd1238f823251185b8}{%
+           family={Olken},
+           familyi={O\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Lawrence Berkeley Lab., CA (USA)}%
+      }
+      \strng{namehash}{923b1a04178238bd1238f823251185b8}
+      \strng{fullhash}{923b1a04178238bd1238f823251185b8}
+      \strng{authornamehash}{923b1a04178238bd1238f823251185b8}
+      \strng{authorfullhash}{923b1a04178238bd1238f823251185b8}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Efficient methods for calculating the success function of fixed-space replacement policies}
+      \field{type}{techreport}
+      \field{userf}{en}
+      \field{year}{1981}
+    \endentry
+    \entry{qureshi2007adaptive}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=85b3287d075b25e09246c6c7693784f2}{%
+           family={Qureshi},
+           familyi={Q\bibinitperiod},
+           given={Moinuddin\bibnamedelima K},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7bbe97e27f21dad29704e1105b629078}{%
+           family={Jaleel},
+           familyi={J\bibinitperiod},
+           given={Aamer},
+           giveni={A\bibinitperiod}}}%
+        {{hash=114bd3f57607ed5cc1f8e1cbed9b866d}{%
+           family={Patt},
+           familyi={P\bibinitperiod},
+           given={Yale\bibnamedelima N},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=78ee780a73b7bb71ece6ed261c8f1ab9}{%
+           family={Steely},
+           familyi={S\bibinitperiod},
+           given={Simon\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4172f9d712839b9414bd23e63b5a9110}{%
+           family={Emer},
+           familyi={E\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{14a8b9e41fe892b659bfba3dfa867cd7}
+      \strng{fullhash}{b0cf2fea109d1b2c49fc4482f72bce0f}
+      \strng{authornamehash}{14a8b9e41fe892b659bfba3dfa867cd7}
+      \strng{authorfullhash}{b0cf2fea109d1b2c49fc4482f72bce0f}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM SIGARCH Computer Architecture News}
+      \field{number}{2}
+      \field{title}{Adaptive insertion policies for high performance caching}
+      \field{userf}{en}
+      \field{volume}{35}
+      \field{year}{2007}
+      \field{pages}{381\bibrangedash 391}
+      \range{pages}{11}
+    \endentry
+    \entry{qureshi2006utility}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=85b3287d075b25e09246c6c7693784f2}{%
+           family={Qureshi},
+           familyi={Q\bibinitperiod},
+           given={Moinuddin\bibnamedelima K},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=114bd3f57607ed5cc1f8e1cbed9b866d}{%
+           family={Patt},
+           familyi={P\bibinitperiod},
+           given={Yale\bibnamedelima N},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{e9916fc819e795598dc3633a4de6c918}
+      \strng{fullhash}{e9916fc819e795598dc3633a4de6c918}
+      \strng{authornamehash}{e9916fc819e795598dc3633a4de6c918}
+      \strng{authorfullhash}{e9916fc819e795598dc3633a4de6c918}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture}
+      \field{title}{Utility-based cache partitioning: A low-overhead, high-performance, runtime mechanism to partition shared caches}
+      \field{userf}{en}
+      \field{year}{2006}
+      \field{pages}{423\bibrangedash 432}
+      \range{pages}{10}
+    \endentry
+    \entry{rafique2006architectural}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f0bf3ed23c8459aca2f3d6c1fd5bf838}{%
+           family={Rafique},
+           familyi={R\bibinitperiod},
+           given={Nauman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9f43bb2ac0cd3f2b82d4c8932cbc62d5}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Won-Taek},
+           giveni={W\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=bb29137408e85cb41e8602a00b774b2f}{%
+           family={Thottethodi},
+           familyi={T\bibinitperiod},
+           given={Mithuna},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{b0daaa962db4939925a1cdb2acd5c31a}
+      \strng{fullhash}{b0daaa962db4939925a1cdb2acd5c31a}
+      \strng{authornamehash}{b0daaa962db4939925a1cdb2acd5c31a}
+      \strng{authorfullhash}{b0daaa962db4939925a1cdb2acd5c31a}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 15th international conference on Parallel architectures and compilation techniques}
+      \field{title}{Architectural support for operating system-driven CMP cache management}
+      \field{userf}{en}
+      \field{year}{2006}
+      \field{pages}{2\bibrangedash 12}
+      \range{pages}{11}
+    \endentry
+    \entry{sanchez2011vantage}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a2ed106e416f44d8040313df2708f6a9}{%
+           family={Sanchez},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ea87e386461230ec18273b6b4f3d33bc}{%
+           family={Kozyrakis},
+           familyi={K\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{6c4cfff466e641895731ddc210bda46e}
+      \strng{fullhash}{6c4cfff466e641895731ddc210bda46e}
+      \strng{authornamehash}{6c4cfff466e641895731ddc210bda46e}
+      \strng{authorfullhash}{6c4cfff466e641895731ddc210bda46e}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM SIGARCH Computer Architecture News}
+      \field{number}{3}
+      \field{title}{Vantage: scalable and efficient fine-grain cache partitioning}
+      \field{userf}{en}
+      \field{volume}{39}
+      \field{year}{2011}
+      \field{pages}{57\bibrangedash 68}
+      \range{pages}{12}
+    \endentry
+    \entry{soares2008reducing}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=5423b6c3f615bcf8f50a54ecfa4417e2}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={Livio},
+           giveni={L\bibinitperiod}}}%
+        {{hash=31754abe3353bb3df344588dad584e54}{%
+           family={Tam},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0cc180f816815b76057e4e06ff75d112}{%
+           family={Stumm},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{9f1daebb4149d41d883be6333cc15967}
+      \strng{fullhash}{9f1daebb4149d41d883be6333cc15967}
+      \strng{authornamehash}{9f1daebb4149d41d883be6333cc15967}
+      \strng{authorfullhash}{9f1daebb4149d41d883be6333cc15967}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 41st annual IEEE/ACM International Symposium on Microarchitecture}
+      \field{title}{Reducing the harmful effects of last-level cache polluters with an OS-level, software-only pollute buffer}
+      \field{userf}{en}
+      \field{year}{2008}
+      \field{pages}{258\bibrangedash 269}
+      \range{pages}{12}
+    \endentry
+    \entry{srikantaiah2009sharp}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=cda80186863c000a17564571f0494ab8}{%
+           family={Srikantaiah},
+           familyi={S\bibinitperiod},
+           given={Shekhar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=adb15975117da520706189020b8d02e7}{%
+           family={Kandemir},
+           familyi={K\bibinitperiod},
+           given={Mahmut},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b05219a6acab0132847dc1d15a7fc0ef}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{d677d6cb39376e9dc77d218dade790ac}
+      \strng{fullhash}{d677d6cb39376e9dc77d218dade790ac}
+      \strng{authornamehash}{d677d6cb39376e9dc77d218dade790ac}
+      \strng{authorfullhash}{d677d6cb39376e9dc77d218dade790ac}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture}
+      \field{title}{SHARP control: controlled shared cache management in chip multiprocessors}
+      \field{userf}{en}
+      \field{year}{2009}
+      \field{pages}{517\bibrangedash 528}
+      \range{pages}{12}
+    \endentry
+    \entry{suh2002new}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e577a40fd8ed0f1e87e2edf1a37aa3bd}{%
+           family={Suh},
+           familyi={S\bibinitperiod},
+           given={G\bibnamedelima Edward},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4be4060700fa73556250f6feefb96f46}{%
+           family={Devadas},
+           familyi={D\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c38af9528d59f0536b1e6eb83816407}{%
+           family={Rudolph},
+           familyi={R\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \strng{fullhash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \strng{authornamehash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \strng{authorfullhash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{High-Performance Computer Architecture, 2002. Proceedings. Eighth International Symposium on}
+      \field{title}{A new memory monitoring scheme for memory-aware scheduling and partitioning}
+      \field{userf}{en}
+      \field{year}{2002}
+      \field{pages}{117\bibrangedash 128}
+      \range{pages}{12}
+    \endentry
+    \entry{suh2014analytical}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e577a40fd8ed0f1e87e2edf1a37aa3bd}{%
+           family={Suh},
+           familyi={S\bibinitperiod},
+           given={G\bibnamedelima Edward},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4be4060700fa73556250f6feefb96f46}{%
+           family={Devadas},
+           familyi={D\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c38af9528d59f0536b1e6eb83816407}{%
+           family={Rudolph},
+           familyi={R\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \strng{fullhash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \strng{authornamehash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \strng{authorfullhash}{0ca9da7e061a6b64f3dd18eca0c01a93}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM International Conference on Supercomputing 25th Anniversary Volume}
+      \field{title}{Analytical cache models with applications to cache partitioning}
+      \field{userf}{en}
+      \field{year}{2014}
+      \field{pages}{323\bibrangedash 334}
+      \range{pages}{12}
+    \endentry
+    \entry{suh2004dynamic}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e577a40fd8ed0f1e87e2edf1a37aa3bd}{%
+           family={Suh},
+           familyi={S\bibinitperiod},
+           given={G\bibnamedelima Edward},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=7c38af9528d59f0536b1e6eb83816407}{%
+           family={Rudolph},
+           familyi={R\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4be4060700fa73556250f6feefb96f46}{%
+           family={Devadas},
+           familyi={D\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{85480b91a13e2699ddb7ea469512c9e5}
+      \strng{fullhash}{85480b91a13e2699ddb7ea469512c9e5}
+      \strng{authornamehash}{85480b91a13e2699ddb7ea469512c9e5}
+      \strng{authorfullhash}{85480b91a13e2699ddb7ea469512c9e5}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Supercomputing}
+      \field{number}{1}
+      \field{title}{Dynamic partitioning of shared cache memory}
+      \field{userf}{en}
+      \field{volume}{28}
+      \field{year}{2004}
+      \field{pages}{7\bibrangedash 26}
+      \range{pages}{20}
+    \endentry
+    \entry{tam2007managing}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=31754abe3353bb3df344588dad584e54}{%
+           family={Tam},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c0a7a1274633c4a53948442f6aa99e09}{%
+           family={Azimi},
+           familyi={A\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5423b6c3f615bcf8f50a54ecfa4417e2}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={Livio},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0cc180f816815b76057e4e06ff75d112}{%
+           family={Stumm},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{21683d4e99bd73c3cf19402af03cd450}
+      \strng{fullhash}{d745fbb5c6d048b7a43166492b87ce01}
+      \strng{authornamehash}{21683d4e99bd73c3cf19402af03cd450}
+      \strng{authorfullhash}{d745fbb5c6d048b7a43166492b87ce01}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop on the Interaction between Operating Systems and Computer Architecture}
+      \field{title}{Managing shared L2 caches on multicore systems in software}
+      \field{userf}{en}
+      \field{year}{2007}
+      \field{pages}{26\bibrangedash 33}
+      \range{pages}{8}
+    \endentry
+    \entry{xie2009pipp}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e5d3279c62b1f6fccd2094b0c721b62a}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yuejian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=919f3bb809d6f3859cdcc064b170f59b}{%
+           family={Loh},
+           familyi={L\bibinitperiod},
+           given={Gabriel\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{3b0fca1184610b1463171aed8047e403}
+      \strng{fullhash}{3b0fca1184610b1463171aed8047e403}
+      \strng{authornamehash}{3b0fca1184610b1463171aed8047e403}
+      \strng{authorfullhash}{3b0fca1184610b1463171aed8047e403}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM SIGARCH Computer Architecture News}
+      \field{number}{3}
+      \field{title}{PIPP: promotion/insertion pseudo-partitioning of multi-core shared caches}
+      \field{userf}{en}
+      \field{volume}{37}
+      \field{year}{2009}
+      \field{pages}{174\bibrangedash 183}
+      \range{pages}{10}
+    \endentry
+    \entry{zhang2009towards}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=227e34554b27c77e2d042504ef1edb97}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e0332c94c19851e31a53337a329c5d0f}{%
+           family={Dwarkadas},
+           familyi={D\bibinitperiod},
+           given={Sandhya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b086604ff3f61a4cb215301464b788c9}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{88fab385bc7b3521c08b446dc1d9228a}
+      \strng{fullhash}{88fab385bc7b3521c08b446dc1d9228a}
+      \strng{authornamehash}{88fab385bc7b3521c08b446dc1d9228a}
+      \strng{authorfullhash}{88fab385bc7b3521c08b446dc1d9228a}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 4th ACM European conference on Computer systems}
+      \field{title}{Towards practical page coloring-based multicore cache management}
+      \field{userf}{en}
+      \field{year}{2009}
+      \field{pages}{89\bibrangedash 102}
+      \range{pages}{14}
+    \endentry
+  \endsortlist
+  \missing{test-zh}
+  \missing{qureshi2006utility，qureshi2007adaptive}
+  \missing{test-en}
+\endrefsection
+\endinput
+
