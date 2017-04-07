@@ -46,9 +46,60 @@ AET是一个先进的MRC采样技术，它可以在很低的时间空间开销�
 
 以往的MRC技术多是基于重用距离，它被定义为对同一数据的相邻两次访问间所间隔的不同数据数。通过构造出重用距离直方图，然后累加得到MRC。但是完整地统计出重用距离直方图会带来巨大的时间和空间开销。从渐进意义上来说，对于$N$个读写访问到$M$个不同的地址，构造重用距离直方图的时间复杂度为$O(N\log M)$，空间复杂度为$O(M)$~\cite{olken1981efficient}。
 
-基于AET的方法引入了平均失效时间（Average Eviction Time，AET）这一概念。失效时间（Eviction Time）被定义为最近一次访问到失效所经历的时间。LRU缓存可以被看作是一个栈，栈中数据按最近访问时间排序。最近访问多的在栈顶，最近访问少的在栈底。栈底被挤出去的就是被替换掉了。AET实际上就是缓存块从栈顶移动到栈底并出栈的时间。详细（TODO？）AET模型只需要重用时间而不是重用距离，两者的差别在于距离是不同的数据，而时间是所有数据数无所谓同或是不同。统计重用时间可以通过随机采样的方式大大提升效率，因为只要采样的重用时间分布与真实的分布一样，AET一样可以得到准确的MRC。通过随机采样一小部分的访存，大量的时间和空间开销可以被节省下来。
+基于AET的方法引入了平均失效时间（Average Eviction Time，AET）这一概念。失效时间（Eviction Time）被定义为最近一次访问到失效所经历的时间。LRU缓存可以被看作是一个栈，栈中数据按最近访问时间排序。最近访问多的在栈顶，最近访问少的在栈底。栈底被挤出去的就是被替换掉了。AET实际上就是缓存块从栈顶移动到栈底并出栈的平均时间。AET模型的输入是重用时间而不是重用距离，两者的差别在于，前者并不需要统计两次重用之间不同的访问次数，只需要统计总次数，所以可以通过随机采样的方式大大减少时间和空间消耗，因为只要采样的重用时间分布与真实的分布一样，AET一样可以得到准确的MRC。通过随机采样一小部分的访存，大量的时间和空间开销可以被节省下来。下面我们来推导AET模型。
 
+我们设$T_m$是一个数据块在到达LRU栈的位置$m$的平均时间。显然，$T_0=0$ and $\textit{AET}(c) = T_{c}$。注意这里是所有数据块的平均情况。
 
+设$n$是所有访存总数，$rt(t)$是重用时间为$t$的访存数量。$f(t)$是重用时间为$t$的访存占比。则：
+
+\begin{equation}
+f(t) = \frac{rt(t)}{n}
+\label{eq:aet_f}
+\end{equation}
+
+对于一个访存来说，$P(t)$是它的重用时间大于$t$的概率：
+
+\begin{equation}
+P(t) = \sum_{t+1}^{\infty}f(t)
+\label{eq:aet_rt}
+\end{equation}
+
+现在数据块向LRU栈底部的每次移动可以被视为一个概率事件。从另一个角度，也可以理解成在单位时间数据块向下移动了$P(t)$。这可以理解为移动的速度，在位置$m$，平均达到时间为$T_m$，则平均速度$v(T_m)$为：
+
+\begin{equation}
+v(T_m) = P(T_m) 
+\label{eq:aet_vm}
+\end{equation}
+
+将速度做积分，就可以得到移动的距离。事实上，$x$从0积分到$\textit{AET}(c)$，就是缓存的大小，所以有如下公式：
+
+\begin{equation}
+\int_0^{AET(c)} P(x) dx = c
+\label{eq:aet_aet}
+\end{equation}
+
+该公式可以这样被证明：
+
+\begin{align}
+\begin{split}
+ & \sum_{m=0}^{c-1} {\int_{T_m}^{T_{m+1}} (v(T_m) - \sum_{t=T_m}^{x-1}f(t))} dx \nonumber\\
+ &= \sum_{m=0}^{c-1} {\int_{T_m}^{T_{m+1}} (P(T_m) - \sum_{t=T_m}^{x-1}f(t))} dx \nonumber\\
+&= \sum_{m=0}^{c-1} {\int_{T_m}^{T_{m+1}} (P(T_m) - (P(T_m) - P(x)))} dx  \nonumber\\
+&= \sum_{m=0}^{c-1} {\int_{T_m}^{T_{m+1}} P(x)} dx  \nonumber\\
+&= \int_{T_0}^{T_1} P(x) dx + \int_{T_1}^{T_2} P(x) dx\nonumber\\
+&\quad ...  + \int_{T_{c-1}}^{T_c} P(x) dx \nonumber\\
+&= \int_0^{AET(c)} P(x) dx \nonumber
+\end{split}
+\end{align}
+
+根据AET，很容易构造出MRC。因为在缓存大小$c$时的失效率，就是重用时间大于$\textit{mr}(c)$的概率。MRC构造公式如下：
+
+\begin{equation}
+mr(c) = P(AET(c)) 
+\label{eq:aet_mrr}
+\end{equation}
+
+综上，我们就得到了一个高效的MRC构造方法。
 
 % 在步骤6 中，计算重用距离需要知道与上次访问该地址之间间隔的不同地址的
 % 数目。这需要用一个散列表记住所有访问过的内存地址，然后用链表将它们串起，
@@ -56,3 +107,48 @@ AET是一个先进的MRC采样技术，它可以在很低的时间空间开销�
 % 是十分必要的。本文采用了文献[56]中提到的树算法来加速重用距离的近似计算。
 
 \section{迭代预测算法} \label{sec:prediction_iteration}
+
+
+\begin{algorithm}
+\caption{Prediction Algorithm}
+\label{alg:pred}
+\begin{algorithmic}[1]
+\renewcommand{\algorithmicforall}{\textbf{foreach}}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\REQUIRE $MRC[i][]$ and $API[i]$ of each program $i$; a CAT scheme
+\ENSURE $MissRate[i]$, $IPC[i]$ for each program $i$
+\STATE Partition cache space to shared intervals based on allocations' starting and finishing points
+\STATE Initialize $occupancy[i][j]$ for program $i$ in interval $j$ = (size of interval $j$) / (number of programs sharing the interval)
+\WHILE {aggregate change of occupancies > threshold}
+	\STATE {/* occupancy to miss rate */}
+    \FORALL {program $i$}
+    	\STATE $occ$ = $0$
+    	\FORALL {interval $j$}
+			\STATE $occ$ += $occupancy[i][j]$
+        \ENDFOR
+        \STATE $MissRate[i]$ = $MRC[i][occ]$
+        \STATE $IPC[i]$ = $1 / (CPI_{base} + MissRate[i] * API[i] * MissPenalty)$
+        \STATE $Miss[i]$ = $MissRate[i] * API[i] * IPC[i] * step$
+    \ENDFOR
+    \STATE {/* miss rate to occupancy */}
+    \FORALL {interval $j$}
+    	\STATE $TotalIntervalMiss$ = $0$
+   		\FORALL {program $i$ in interval $j$}
+        	\STATE $IntervalMiss[i][j]$ = $Miss[i] * IntervalSize[j] / AllocationSize[i]$
+            \STATE $TotalIntervalMiss$ += $IntervalMiss[i][j]$ 
+		\ENDFOR
+        
+        \FORALL {program $i$ in interval $j$}
+        	\STATE $occupancy[i][j]$ =  $occupancy[i][j] + IntervalMiss[i][j] * (IntervalSize[j] - occupancy[i][j]) / IntervalSize[j] - (TotalIntervalMiss - IntervalMiss[i][j]) * occupancy[i][j] / IntervalSize[j]$
+		\ENDFOR
+    \ENDFOR
+    \IF {$step$ > $minStep$}
+    	\STATE $step$ = $step * StepReductionRatio$
+    \ENDIF
+\ENDWHILE
+
+\STATE \textbf{return} $MissRate[]$, $IPC[]$
+
+\end{algorithmic}
+\end{algorithm}

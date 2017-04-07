@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  5 APR 2017 20:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  7 APR 2017 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2294,14 +2294,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                test-zh
+(biblatex)                qureshi2006utilityï¼Œqureshi2007adaptive
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                qureshi2006utilityï¼Œqureshi2007adaptive
+(biblatex)                test-zh
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2572,8 +2572,14 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 15.05624pt on input line 5.
+<figures/CacheHierarchy.jpg, id=501, 741.77126pt x 386.44376pt>
+File: figures/CacheHierarchy.jpg Graphic file (type jpg)
 
-Overfull \hbox (14.78128pt too wide) in paragraph at lines 15--16
+<use figures/CacheHierarchy.jpg>
+Package pdftex.def Info: figures/CacheHierarchy.jpg used on input line 17.
+(pdftex.def)             Requested size: 359.64394pt x 187.36603pt.
+
+Overfull \hbox (14.78128pt too wide) in paragraph at lines 22--23
 []\C70/rm/m/n/12.045/59 ‚ \C70/rm/m/n/12.045/56 þ[]\T1/ntxtlf/m/n/12.045 2.1[]\
 C70/rm/m/n/12.045/62 @ \C70/rm/m/n/12.045/79 : \C70/rm/m/n/12.045/66 / \C70/rm/
 m/n/12.045/4e ^^@ * \C70/rm/m/n/12.045/51 x \C70/rm/m/n/12.045/57 ‹ \C70/rm/m/n
@@ -2587,56 +2593,46 @@ ff ^^L| \C70/rm/m/n/12.045/82 ñ \C70/rm/m/n/12.045/72 y \C70/rm/m/n/12.045/5c ^
 12.045 Sandy
  []
 
-<figures/CacheHierarchy.jpg, id=502, 741.77126pt x 386.44376pt>
-File: figures/CacheHierarchy.jpg Graphic file (type jpg)
 
-<use figures/CacheHierarchy.jpg>
-Package pdftex.def Info: figures/CacheHierarchy.jpg used on input line 19.
-(pdftex.def)             Requested size: 359.64394pt x 187.36603pt.
-
-Overfull \hbox (53.38525pt too wide) in paragraph at lines 25--27
-[]\C70/rm/bx/n/12.045/76 ø \C70/rm/bx/n/12.045/80 T \C70/rm/bx/n/12.045/5e ¦ \C
-70/rm/m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/4e - ^^@ * \
-C70/rm/m/n/12.045/67 ^^@ \C70/rm/m/n/12.045/5c ^^O \C70/rm/m/n/12.045/76 „ \C70
-/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/50 ¨ \C70/rm/m/n/12.045/53 U \C70/rm/m/n
-/12.045/51 C \C70/rm/m/n/12.045/79 ð \C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045
-/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/57 W |\C70/rm/m/n/12.045/ff 
-^^H|\T1/ntxtlf/m/n/12.045 Cache Line|\C70/rm/m/n/12.045/ff 	||\C70/rm/m/n/12.04
-5/30 ^^B| \C70/rm/m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/
-76 „ ø \C70/rm/m/n/12.045/80 T \C70/rm/m/n/12.045/5e ¦ |\C70/rm/m/n/12.045/ff ^
-^H|\T1/ntxtlf/m/n/12.045 Associativity|\C70/rm/m/n/12.045/ff 	|
+Overfull \hbox (15.44357pt too wide) in paragraph at lines 27--28
+[]\C70/rm/m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/4e - ^^@
+ * \C70/rm/m/n/12.045/67 ^^@ \C70/rm/m/n/12.045/5c ^^O \C70/rm/m/n/12.045/76 „ 
+\C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/50 ¨ \C70/rm/m/n/12.045/53 U \C70/rm
+/m/n/12.045/51 C \C70/rm/m/n/12.045/79 ð \C70/rm/m/n/12.045/4e : \C70/rm/m/n/12
+.045/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/57 W |\C70/rm/m/n/12.045
+/ff ^^H|\T1/ntxtlf/m/n/12.045 Cache Line|\C70/rm/m/n/12.045/ff 	||\C70/rm/m/n/1
+2.045/30 ^^B| \C70/rm/m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.
+045/76 „ ø \C70/rm/m/n/12.045/80 T \C70/rm/m/n/12.045/5e ¦ |\C70/rm/m/n/12.045/
+ff ^^H|\T1/ntxtlf/m/n/12.045 Associativity|\C70/rm/m/n/12.045/ff 	|
  []
 
 [5
 
 
 
-] <figures/CacheAsso1.png, id=515, 172.39406pt x 226.59656pt>
+] <figures/CacheAsso1.png, id=513, 172.39406pt x 226.59656pt>
 File: figures/CacheAsso1.png Graphic file (type png)
 
 <use figures/CacheAsso1.png>
-Package pdftex.def Info: figures/CacheAsso1.png used on input line 37.
+Package pdftex.def Info: figures/CacheAsso1.png used on input line 38.
 (pdftex.def)             Requested size: 97.10504pt x 127.63658pt.
 
-<figures/CacheAsso2.png, id=517, 170.88844pt x 225.84375pt>
+<figures/CacheAsso2.png, id=515, 170.88844pt x 225.84375pt>
 File: figures/CacheAsso2.png Graphic file (type png)
 
 <use figures/CacheAsso2.png>
-Package pdftex.def Info: figures/CacheAsso2.png used on input line 41.
+Package pdftex.def Info: figures/CacheAsso2.png used on input line 42.
 (pdftex.def)             Requested size: 97.10504pt x 128.33597pt.
 
-<figures/CacheAsso3.png, id=518, 368.1253pt x 226.59656pt>
+<figures/CacheAsso3.png, id=516, 368.1253pt x 226.59656pt>
 File: figures/CacheAsso3.png Graphic file (type png)
 
 <use figures/CacheAsso3.png>
-Package pdftex.def Info: figures/CacheAsso3.png used on input line 45.
+Package pdftex.def Info: figures/CacheAsso3.png used on input line 46.
 (pdftex.def)             Requested size: 210.3912pt x 129.50713pt.
-
-Underfull \vbox (badness 1173) has occurred while \output is active []
-
- [6 <./figures/CacheHierarchy.jpg> <./figures/CacheAsso1.png> <./figures/CacheA
-sso2.png> <./figures/CacheAsso3.png>] [7] [8]
-Overfull \hbox (20.81544pt too wide) in paragraph at lines 93--94
+ [6 <./figures/CacheHierarchy.jpg>] [7 <./figures/CacheAsso1.png> <./figures/Ca
+cheAsso2.png> <./figures/CacheAsso3.png>] [8]
+Overfull \hbox (20.81544pt too wide) in paragraph at lines 97--98
 []\T1/ntxtlf/m/n/12.045 CAT\C70/rm/m/n/12.045/90 ^^Z \C70/rm/m/n/12.045/8f Ç \C
 70/rm/m/n/12.045/4e ^^@ * \C70/rm/m/n/12.045/88 « \C70/rm/m/n/12.045/79 ð \C70/
 rm/m/n/12.045/4e :\T1/ntxtlf/m/n/12.045 CLOS |\C70/rm/m/n/12.045/ff ^^H|\T1/ntx
@@ -2649,7 +2645,7 @@ tlf/m/n/12.045 Class of Ser-vice|\C70/rm/m/n/12.045/ff 	| \C70/rm/m/n/12.045/76
  []
 
 
-Overfull \hbox (3.83197pt too wide) in paragraph at lines 93--94
+Overfull \hbox (3.83197pt too wide) in paragraph at lines 97--98
 \C70/rm/m/n/12.045/54 + \C70/rm/m/n/12.045/4e ^^@ *\T1/ntxtlf/m/n/12.045 CBM |\
 C70/rm/m/n/12.045/ff ^^H|\T1/ntxtlf/m/n/12.045 Capacity Bit-mask|\C70/rm/m/n/12
 .045/ff 	| \C70/rm/m/n/12.045/76 „ \C70/rm/m/n/12.045/5b ¹ \C70/rm/m/n/12.045/9
@@ -2662,7 +2658,7 @@ xtlf/m/n/12.045 CLOS\C70/rm/m/n/12.045/53 ï \C70/rm/m/n/12.045/4e å \C70/rm/m/n
  []
 
 
-Overfull \hbox (13.25131pt too wide) in paragraph at lines 95--96
+Overfull \hbox (13.25131pt too wide) in paragraph at lines 99--100
 []\C70/rm/m/n/12.045/56 þ []\T1/ntxtlf/m/n/12.045 2.3[]\C70/rm/m/n/12.045/66 / 
 \C70/rm/m/n/12.045/4e ^^@ *\T1/ntxtlf/m/n/12.045 CLOS\C70/rm/m/n/12.045/4e ^^N\
 T1/ntxtlf/m/n/12.045 CBM\C70/rm/m/n/12.045/76 „ \C70/rm/m/n/12.045/4f ‹ \C70/rm
@@ -2677,10 +2673,10 @@ txtlf/m/n/12.045 CLOS[1]\C70/rm/m/n/12.045/52 ^^F
 <figures/CLOS.png, id=560, 328.22626pt x 98.16675pt>
 File: figures/CLOS.png Graphic file (type png)
  <use figures/CLOS.png>
-Package pdftex.def Info: figures/CLOS.png used on input line 99.
+Package pdftex.def Info: figures/CLOS.png used on input line 103.
 (pdftex.def)             Requested size: 359.64394pt x 107.56433pt.
 
-[9 <./figures/CLOS.png>] [10]) [11]
+[9] [10 <./figures/CLOS.png>]) [11]
 \openout2 = `chap/prediction.aux'.
 
  (./chap/prediction.tex [12
@@ -2751,34 +2747,78 @@ File: figures/AET_overhead.png Graphic file (type png)
 <use figures/AET_overhead.png>
 Package pdftex.def Info: figures/AET_overhead.png used on input line 42.
 (pdftex.def)             Requested size: 359.64394pt x 287.03069pt.
- [15 <./figures/pin.png> <./figures/AET_overhead.png>]) [16]
+ [15 <./figures/pin.png> <./figures/AET_overhead.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.045pt on input line 51.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 51.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 51.
+
+Overfull \hbox (16.43918pt too wide) in paragraph at lines 51--52
+[]\C70/rm/m/n/12.045/62 ^^Q \C70/rm/m/n/12.045/4e ì \C70/rm/m/n/12.045/8b ¾$\OM
+L/ntxmi/m/it/12.045 T[]$\C70/rm/m/n/12.045/66 / \C70/rm/m/n/12.045/4e ^^@ * \C7
+0/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/63 n \C70/rm/m/n/12.045/57 W ( \C70/rm/
+m/n/12.045/52 0 \C70/rm/m/n/12.045/8f ¾\T1/ntxtlf/m/n/12.045 LRU\C70/rm/m/n/12.
+045/68 ^^H \C70/rm/m/n/12.045/76 „ \C70/rm/m/n/12.045/4f M \C70/rm/m/n/12.045/7
+f n$\OML/ntxmi/m/it/12.045 m$\C70/rm/m/n/12.045/76 „ \C70/rm/m/n/12.045/5e s \C
+70/rm/m/n/12.045/57 G \C70/rm/m/n/12.045/65 ö \C70/rm/m/n/12.045/95 ô|\C70/rm/m
+/n/12.045/30 ^^B| \C70/rm/m/n/12.045/66 > \C70/rm/m/n/12.045/71 6|\C70/rm/m/n/1
+2.045/ff ^^L| $\OML/ntxmi/m/it/12.045 T[] \U/ntxmia/m/it/12.045 = \OT1/ntxtlf/m
+/n/12.045 0$ \T1/ntxtlf/m/n/12.045 and $[]\LMS/ntxsy/m/n/12.045 ¹\OML/ntxmi/m/i
+t/12.045 c\LMS/ntxsy/m/n/12.045 º \U/ntxmia/m/it/12.045 =
+ []
+
+
+Overfull \hbox (3.89868pt too wide) in paragraph at lines 67--68
+\C70/rm/m/n/12.045/4e _ \C70/rm/m/n/12.045/53 ï \C70/rm/m/n/12.045/4e å \C70/rm
+/m/n/12.045/74 ^^F \C70/rm/m/n/12.045/89 ã \C70/rm/m/n/12.045/62 ^^P \C70/rm/m/
+n/12.045/57 ( \C70/rm/m/n/12.045/53 U \C70/rm/m/n/12.045/4f M \C70/rm/m/n/12.04
+5/65 ö \C70/rm/m/n/12.045/95 ô \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/63 n 
+\C70/rm/m/n/12.045/57 W \C70/rm/m/n/12.045/54 ^^Q \C70/rm/m/n/12.045/4e  \C70/
+rm/m/n/12.045/79 û \C70/rm/m/n/12.045/52 ¨ \C70/rm/m/n/12.045/4e †$\OML/ntxmi/m
+/it/12.045 P\LMS/ntxsy/m/n/12.045 ¹\OML/ntxmi/m/it/12.045 t\LMS/ntxsy/m/n/12.04
+5 º$|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.045/8f Ù \C70/rm/m/n/12.045/53 ï
+ \C70/rm/m/n/12.045/4e å \C70/rm/m/n/12.045/74 ^^F \C70/rm/m/n/12.045/89 ã \C70
+/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/79 û \C70/rm/m/n/12.045/52 ¨ \C70/rm/m/n
+/12.045/76 „ \C70/rm/m/n/12.045/90 ^^_ \C70/rm/m/n/12.045/5e ¦|\C70/rm/m/n/12.0
+45/ff ^^L| \C70/rm/m/n/12.045/57 ( \C70/rm/m/n/12.045/4f M \C70/rm/m/n/12.045/7
+f n$\OML/ntxmi/m/it/12.045 m$|\C70/rm/m/n/12.045/ff ^^L|
+ []
+
+[16]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 113.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 121.
+) [17] [18]
 \openout2 = `chap/allocation.aux'.
 
  (./chap/allocation.tex
 ç¬¬å››ç« 
-) [17
+) [19
 
 
 
 ]
 \openout2 = `chap/evaluation.aux'.
 
- (./chap/evaluation.tex [18
+ (./chap/evaluation.tex [20
 
 
 
 ]
 ç¬¬äº”ç« 
-) [19]
+) [21]
 \openout2 = `chap/conclusion.aux'.
 
- (./chap/conclusion.tex [20
+ (./chap/conclusion.tex [22
 
 
 
 ]
 ç¬¬å…­ç« 
-) [21] [22
+) [23] [24
 
 
 ]
@@ -2803,44 +2843,40 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 114.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 114.
- [23]
-[24]
+ [25]
+[26]
 \openout2 = `chap/encl1.aux'.
 
  (./chap/encl1.tex
 é™„å½• A
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.045pt on input line 5.
 Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyl
 e (quanjiao) on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 12.045pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
-) [25
+) [27
 
 
-] [26
+] [28
 
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [27
+ (./chap/acknowledge.tex) [29
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [28
+ (./chap/originauth.tex [30
 
 
 
-]) [29]
+]) [31]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 
@@ -2857,13 +2893,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45554 strings out of 493013
- 821831 string characters out of 6136993
- 1196378 words of memory out of 5000000
- 47726 multiletter control sequences out of 15000+600000
- 189609 words of font info for 446 fonts, out of 8000000 for 9000
+ 45680 strings out of 493013
+ 823004 string characters out of 6136993
+ 1196694 words of memory out of 5000000
+ 47774 multiletter control sequences out of 15000+600000
+ 215878 words of font info for 491 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,102p,10459b,1424s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,102p,10459b,1424s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/s
 imkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS
 /fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:
@@ -2932,13 +2968,18 @@ i.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/texlive/2016/texmf-dist/fonts/type1/publ
 ic/tex-gyre/qhvb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qt
 mb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2016/tex
-mf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/txfonts/txsya.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
-ewtx/txsys.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (39 pages, 1012783 bytes).
+mf-dist/fonts/type1/public/newtx/rntxmi5.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/newtx/rntxmi7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/t
+xfonts/rtxmi.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pf
+b><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/
+2016/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2016/texmf-dist/
+fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
+blic/newtx/txsys.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on thesis.pdf (41 pages, 1051555 bytes).
 PDF statistics:
- 1285 PDF objects out of 1440 (max. 8388607)
- 912 compressed objects within 10 object streams
- 111 named destinations out of 1000 (max. 500000)
+ 1355 PDF objects out of 1440 (max. 8388607)
+ 975 compressed objects within 10 object streams
+ 148 named destinations out of 1000 (max. 500000)
  544 words of extra memory for PDF output out of 10000 (max. 10000000)
 

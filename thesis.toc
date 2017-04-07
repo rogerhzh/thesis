@@ -18,18 +18,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}离线采样分析}{14}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}迭代预测算法}{16}{section.3.3}
+\contentsline {section}{\numberline {3.3}迭代预测算法}{17}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}优化算法}{17}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}优化算法}{19}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}实验评估}{19}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}实验评估}{21}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结}{21}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结}{23}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{23}{appendix*.11}
+\contentsline {chapter}{参考文献}{25}{appendix*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{25}{appendix.A}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{27}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{27}{appendix*.12}
+\contentsline {chapter}{致谢}{29}{appendix*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{29}{appendix*.13}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{31}{appendix*.13}
