@@ -62,6 +62,47 @@
       \field{pages}{56\bibrangedash 65}
       \range{pages}{10}
     \endentry
+    \entry{chandra2005predicting}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=31475ce187dd15ca252b488302fe6085}{%
+           family={Chandra},
+           familyi={C\bibinitperiod},
+           given={Dhruba},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e10c1eafe9a0dd71b4a3a68eda5ca343}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f10986d25b4151ac93ffd54393dcc18e}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seongbeom},
+           giveni={S\bibinitperiod}}}%
+        {{hash=04785cf886819b30c5534080d51d6107}{%
+           family={Solihin},
+           familyi={S\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{400676d8317beef4f0ae94fc13cb8356}
+      \strng{fullhash}{675556602a9956b62aed5e82ea2687c2}
+      \strng{authornamehash}{400676d8317beef4f0ae94fc13cb8356}
+      \strng{authorfullhash}{675556602a9956b62aed5e82ea2687c2}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{11th International Symposium on High-Performance Computer Architecture}
+      \field{title}{Predicting inter-thread cache contention on a chip multi-processor architecture}
+      \field{userf}{en}
+      \field{year}{2005}
+      \field{pages}{340\bibrangedash 351}
+      \range{pages}{12}
+    \endentry
     \entry{chang2006cooperative}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=290e3fb692b05f96c470852b7b9580fb}{%
@@ -596,6 +637,42 @@
       \endverb
       \keyw{dynamic compilation,instrumentation,program analysis tools}
     \endentry
+    \entry{luo2001balancing}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=384c2cf85f0e11e983ea193103b000e8}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d5f0cf85f083e0cdbdd747ea167fc6c1}{%
+           family={Gummaraju},
+           familyi={G\bibinitperiod},
+           given={Jayanth},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cdd09805242c3e8617881c3727dada38}{%
+           family={Franklin},
+           familyi={F\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5c9021a5f36ac4c6d225298ac1ca3868}
+      \strng{fullhash}{5c9021a5f36ac4c6d225298ac1ca3868}
+      \strng{authornamehash}{5c9021a5f36ac4c6d225298ac1ca3868}
+      \strng{authorfullhash}{5c9021a5f36ac4c6d225298ac1ca3868}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Performance Analysis of Systems and Software, 2001. ISPASS. 2001 IEEE International Symposium on}
+      \field{title}{Balancing thoughput and fairness in SMT processors}
+      \field{userf}{en}
+      \field{year}{2001}
+      \field{pages}{164\bibrangedash 171}
+      \range{pages}{8}
+    \endentry
     \entry{manikantan2012probabilistic}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=7358d142fc147694f992729fccbe3f16}{%
@@ -805,6 +882,39 @@
       \field{year}{2011}
       \field{pages}{57\bibrangedash 68}
       \range{pages}{12}
+    \endentry
+    \entry{snavely2000symbiotic}{article}{}
+      \name{author}{2}{}{%
+        {{hash=62983d9188b2c114aad9fd875c58feeb}{%
+           family={Snavely},
+           familyi={S\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=74261c97a3e106c658462d26a0d9b2f3}{%
+           family={Tullsen},
+           familyi={T\bibinitperiod},
+           given={Dean\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{debb8902814e91e4a35c711dc288ee47}
+      \strng{fullhash}{debb8902814e91e4a35c711dc288ee47}
+      \strng{authornamehash}{debb8902814e91e4a35c711dc288ee47}
+      \strng{authorfullhash}{debb8902814e91e4a35c711dc288ee47}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM SIGPLAN Notices}
+      \field{number}{11}
+      \field{title}{Symbiotic jobscheduling for a simultaneous mutlithreading processor}
+      \field{userf}{en}
+      \field{volume}{35}
+      \field{year}{2000}
+      \field{pages}{234\bibrangedash 244}
+      \range{pages}{11}
     \endentry
     \entry{soares2008reducing}{inproceedings}{}
       \name{author}{3}{}{%
@@ -1029,6 +1139,138 @@
       \field{pages}{26\bibrangedash 33}
       \range{pages}{8}
     \endentry
+    \entry{west2010online}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f360779c23a4beea5cbecf6c057d3404}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9d416feba9a0c4064e0800c34455ca72}{%
+           family={Zaroo},
+           familyi={Z\bibinitperiod},
+           given={Puneet},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9d5dbc4e089970ece2346df935e6b3f7}{%
+           family={Waldspurger},
+           familyi={W\bibinitperiod},
+           given={Carl\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=227e34554b27c77e2d042504ef1edb97}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{4ad45c2bcdf3a70de88d02a63cfc1648}
+      \strng{fullhash}{9b8f075d3a7a35d722838c15dba64c44}
+      \strng{authornamehash}{4ad45c2bcdf3a70de88d02a63cfc1648}
+      \strng{authorfullhash}{9b8f075d3a7a35d722838c15dba64c44}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM SIGOPS Operating Systems Review}
+      \field{number}{4}
+      \field{title}{Online cache modeling for commodity multicore processors}
+      \field{userf}{en}
+      \field{volume}{44}
+      \field{year}{2010}
+      \field{pages}{19\bibrangedash 29}
+      \range{pages}{11}
+    \endentry
+    \entry{xiang2011all}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=c608204ae647e8b608dfdf541bbae0f4}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Xiaoya},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f78289a128eb158da2d42b485a9e8027}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ad9075bc11ca1e50d1995b1c5ace09b4}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Tongxin},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b85c736722ed503c520995a243eb268d}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d0d613f40929a36131b156e475b7dfcd}{%
+           family={Chilimbi},
+           familyi={C\bibinitperiod},
+           given={Trishul},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{7db9bf79d7850fae9342aff8421ca0c6}
+      \strng{fullhash}{c29672c30f074f91d29a5bf3353b0f88}
+      \strng{authornamehash}{7db9bf79d7850fae9342aff8421ca0c6}
+      \strng{authorfullhash}{c29672c30f074f91d29a5bf3353b0f88}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ACM SIGPLAN Notices}
+      \field{number}{8}
+      \field{title}{All-window profiling and composable models of cache sharing}
+      \field{userf}{en}
+      \field{volume}{46}
+      \field{year}{2011}
+      \field{pages}{91\bibrangedash 102}
+      \range{pages}{12}
+    \endentry
+    \entry{xiang2011linear}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c608204ae647e8b608dfdf541bbae0f4}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Xiaoya},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f78289a128eb158da2d42b485a9e8027}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b85c736722ed503c520995a243eb268d}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8c836e1d132b0add131d0a73d04d6f57}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yaoqing},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{15cecd94d373f0e942f411892aa6af6d}
+      \strng{fullhash}{06f8ffdabe7bc422be16ee22e4987273}
+      \strng{authornamehash}{15cecd94d373f0e942f411892aa6af6d}
+      \strng{authorfullhash}{06f8ffdabe7bc422be16ee22e4987273}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Parallel Architectures and Compilation Techniques (PACT), 2011 International Conference on}
+      \field{title}{Linear-time modeling of program working set in shared cache}
+      \field{userf}{en}
+      \field{year}{2011}
+      \field{pages}{350\bibrangedash 360}
+      \range{pages}{11}
+    \endentry
     \entry{xie2009pipp}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=e5d3279c62b1f6fccd2094b0c721b62a}{%
@@ -1099,9 +1341,9 @@
       \range{pages}{14}
     \endentry
   \endsortlist
+  \missing{test-en}
   \missing{qureshi2006utility，qureshi2007adaptive}
   \missing{test-zh}
-  \missing{test-en}
 \endrefsection
 \endinput
 

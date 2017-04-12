@@ -2202,14 +2202,27 @@
     <bcf:citekey order="19">hu2016kinect</bcf:citekey>
     <bcf:citekey order="20">luk2005pin</bcf:citekey>
     <bcf:citekey order="21">olken1981efficient</bcf:citekey>
-    <bcf:citekey order="22">test-en</bcf:citekey>
-    <bcf:citekey order="23">test-zh</bcf:citekey>
-    <bcf:citekey order="24">test-en</bcf:citekey>
-    <bcf:citekey order="24">test-zh</bcf:citekey>
-    <bcf:citekey order="25">test-en</bcf:citekey>
-    <bcf:citekey order="26">test-zh</bcf:citekey>
-    <bcf:citekey order="27">test-en</bcf:citekey>
-    <bcf:citekey order="27">test-zh</bcf:citekey>
+    <bcf:citekey order="22">chandra2005predicting</bcf:citekey>
+    <bcf:citekey order="22">suh2014analytical</bcf:citekey>
+    <bcf:citekey order="22">xiang2011all</bcf:citekey>
+    <bcf:citekey order="22">xiang2011linear</bcf:citekey>
+    <bcf:citekey order="22">hu2016kinect</bcf:citekey>
+    <bcf:citekey order="23">west2010online</bcf:citekey>
+    <bcf:citekey order="24">west2010online</bcf:citekey>
+    <bcf:citekey order="25">hsu2006communist</bcf:citekey>
+    <bcf:citekey order="26">snavely2000symbiotic</bcf:citekey>
+    <bcf:citekey order="26">qureshi2006utility</bcf:citekey>
+    <bcf:citekey order="27">luo2001balancing</bcf:citekey>
+    <bcf:citekey order="27">chang2014cooperative</bcf:citekey>
+    <bcf:citekey order="28">manikantan2012probabilistic</bcf:citekey>
+    <bcf:citekey order="29">test-en</bcf:citekey>
+    <bcf:citekey order="30">test-zh</bcf:citekey>
+    <bcf:citekey order="31">test-en</bcf:citekey>
+    <bcf:citekey order="31">test-zh</bcf:citekey>
+    <bcf:citekey order="32">test-en</bcf:citekey>
+    <bcf:citekey order="33">test-zh</bcf:citekey>
+    <bcf:citekey order="34">test-en</bcf:citekey>
+    <bcf:citekey order="34">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ecnty/global/" type="entry" sortscheme="ecnty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

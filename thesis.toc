@@ -20,16 +20,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}迭代预测算法}{17}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}优化算法}{19}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}分配优化}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}实验评估}{21}{chapter.5}
+\contentsline {section}{\numberline {4.1}算法综述}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结}{23}{chapter.6}
+\contentsline {section}{\numberline {4.2}优化目标}{23}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{25}{appendix*.11}
+\contentsline {section}{\numberline {4.3}优化算法}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{27}{appendix.A}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}实验评估}{27}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{29}{appendix*.12}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结}{29}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{31}{appendix*.13}
+\contentsline {chapter}{参考文献}{31}{appendix*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{35}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{37}{appendix*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{39}{appendix*.13}

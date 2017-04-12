@@ -1,4 +1,97 @@
 % Copyright (c) 2014,2016 Casper Ti. Vector
 % Public domain.
 
-\chapter{优化算法} \label{chap:allocation}
+\chapter{分配优化} \label{chap:allocation}
+
+\section{算法综述}
+
+本章节中，我们将介绍CAPS的优化算法。该优化算法基于上一章节的预测模型，可以针对一个优化目标，在较短时间内生成一个优化CAT分配。同时，该算法还支持不同的优化目标，我们在CAPS中实现了五个优化策略，在后文中会着重阐述。
+
+缓存的优化问题可以被概括为一句话：给定一个优化目标，找到一个最优分配。但是在CAT技术下的优化问题将面临更大的挑战。相比于过去不考虑部分重叠和位置的分配问题，CAT下的分配拥有极其巨大的搜索空间。之前的优化算法只需要决定每个线程需要被分配多少缓存空间，而CAT下需要决定每个分配是从哪到哪，而且还允许部分重叠。搜索整个解空间显然是不现实的，在时间和空间开销上都是不被允许的。可以证明，在这种情况下找到一个最优分配是一个NP-hard问题。
+
+因此，我们的算法并不寻求全局最优分配，而是只需要求解一个较优解。事实上，由于预测的准确率并不十分精确，所以一个全局上的绝对最优解并没有太大意义，反而在短时间内找到一个较优解有更大的意义。为此，我们从经典的模拟退火算法中吸取智慧，构建了一个基于“模拟退火”的优化算法。我们的实验表明该算法在任何优化目标下都能起到良好的效果，具体实验评估结果见第\ref{chap:evaluation}章。
+
+\section{优化目标}
+
+优化的目标是一个优化策略锚定的指标，是驱动一个优化算法的重要动力。一个优化指标是对系统的总体优化目标的一个量化，不同的指标侧重点也不同，总的来说可以被概括为三个方面：性能（Performance）、公平（Fairness）和服务质量（QoS）。当然，一个指标也可以兼顾两个方面，但同时兼顾三个方面是不现实的~\parencite{hsu2006communist}。优化策略的目标就是将锚定的指标最小化或最大化，同时该指标也用来评估策略的有效性。
+
+前人的研究中提出了许多指标来抽象多个并发程序的整体效能。这些指标大多依赖于IPC和失效率这两个参数，这也是CAPS预测模型会输出这两个参数的原因之一。我们希望我们的优化策略具有灵活性，可以很容易适应多个指标，而不用对不同的指标设计截然不同的策略。事实上，因为预测模型预测出了失效率和IPC，只要是基于这两个参数的指标，我们的优化策略都可以直接适配。在本文中，我们选择实现了五个指标作为样例。这五个指标涵盖了各种场合下的优化需求，包括上述所说的性能、公平和服务质量这三个方面。
+
+我们在CAPS中实现的五个指标为：
+
+\begin{itemize}
+
+\item \textbf{平均失效数（Average MPKI）：}平均失效数Average MPKI代表平均每1000条指令的失效数（Misses Per 1000 Instructions, MPKI)。MPKI是系统评估中的常用指标之一，平均失效数代表所有并发程序的平均MPKI，它可以体现出该并发系统的缓存利用效率。较小的平均失效数意味着较高的缓存利用效率，所以针对该指标的优化策略目的就是让平均MPKI尽可能的小。另一方面，LLC缓存失效就意味着该访存指令需要访问内存，所以最小化MPKI也意味着降低内存总线的竞争。在下述公式中，我们定义$MissRate_i$为程序$i$在和别的程序并发执行时的失效率，$APKI_i$是程序$i$每1000条指令的访存指令数。Average MPKI是一个越小越好的指标。
+
+\begin{equation}
+AverageMPKI = \sum ( MissRate_i \times APKI_i ) / \#program
+\label{eq:mn}
+\end{equation}
+	
+\item \textbf{吞吐量（Throughput）：}吞吐量Throughput被定义为所有程序的IPC之和，这也是一个被广泛使用的指标。针对该指标的策略力求让系统整体的IPC吞吐量最大化。它把所有并发程序看成一个整体，使得整个系统的执行效率最高。但是同时，该指标可能会对一些本身IPC就比较低的程序不太公平，因为降低它们的IPC并不会对整体系统的IPC之和产生非常大的影响。在下述公式中，我们定义$IPC_i$为程序$i$在并发负载中的IPC。Throughput是一个越大越好的指标。
+
+\begin{equation}
+	Throughput = \sum IPC_i
+	\label{eq:IPCsum}
+\end{equation}
+
+\item \textbf{平均效率下降（Average slowdown）：}平均效率下降Average slowdown代表着在平均情况下，程序的在共享LLC与独占LLC的执行时间之比。因为相比于一个程序独占LLC，共享的情况下或多或少都会受到一定的性能损失，所以每个程序的Slowdown一定是大于1的，平均Slowdown自然也大于1。我们定义对于程序$i$来说，它的Slowdown为$SingleIPC_i/IPC_i$，这里$SingleIPC_i$指的是当它单独运行使用全部LLC时每周期执行的指令数（IPC），$IPC_i$是在多程序并发负载中的IPC。平均Slowdown的概念与前人研究中多次提到的另一个指标，加权效率提升（Weighted speedup），有很大相似之处~\parencite{snavely2000symbiotic,qureshi2006utility}。Weighted speedup把并发执行的程序看成一个整体，使用speedup，这个slowdown的倒数，来概括这个整体因为并发带来的效率提升。但是我们认为，每个并发的程序还可以看作独立的个体，每个程序执行各自不同的任务，这样的话针对单个程序的slowdown更可以反映出程序的执行效率，因为共享LLC势必会导致性能下降，所以一定会引起每个程序或多或少的Slowdown，我们把所有程序的Slowdown做算术平均，就可以得到该并发负载因为竞争LLC导致的整体性能下降。Average slowdown是一个越低越好的指标。
+
+\begin{equation}
+	AverageSlowdown = \sum\frac{SingleIPC_i}{IPC_i} / \#program
+\end{equation}
+
+\item \textbf{公平效率下降（Fair slowdown）：}公平效率下降指标Fair slowdown兼顾了整体性能和公平性。这个指标借鉴了多个前人的研究经验~\parencite{luo2001balancing, chang2014cooperative}。如果只考虑公平性而无视性能是没有意义的，因为大家效率都很差的话，即使再公平也意义不大。我希望通过指标能在提升性能的基础上兼顾公平。与上一个指标Average slowdown不同之处在于，本指标被定义为各个程序Slowdown的调和平均。调和平均鼓励大家的相差尽量小，使得各个程序的slowdown得到均匀的改善。Fair Slowdown是一个越小越好的指标。
+
+\begin{equation}
+	FairSlowdown = \#program / {\sum\frac{IPC_i}{SingleIPC_i}}
+\end{equation}
+
+\item \textbf{最大效率下降（Maximum slowdown）：}最大效率下降Maximum slowdown指代所有并发程序中的slowdown最大的那一个，它兼顾了性能与服务质量（QoS）。事实上，QoS是比较难以被量化的，因为判断哪些程序优先级较高、哪些程序优先级较低本身就比较主观。在本文中，我们不讨论程序间优先级不同这一主观因素，我们把并发负载看成一个木桶，把QoS定义成木桶中最短的那块短板，也就是Slowdown最高的那个程序。这种表达QoS的方法也被之前的研究者所使用~\parencite{manikantan2012probabilistic}. Maximum slowdown是一个越小越好的指标。
+
+\begin{equation}
+MaxSlowdown=\max(\frac{SingleIPC_i}{IPC_i})
+\label{eq:qos}
+\end{equation}
+
+\end{itemize}
+
+\section{优化算法}
+
+
+\begin{algorithm}
+\caption{Optimization Algorithm}
+\label{alg:opt}
+\begin{algorithmic}[1]
+\renewcommand{\algorithmicforall}{\textbf{foreach}}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\REQUIRE concurrent programs and a metric function
+\ENSURE a near-optimal CAT scheme
+\STATE Profile $MRC[i][]$ and $API[i]$ for each program $i$
+\STATE Initialize temperature $T$ and a random allocation $scheme$
+\STATE $IPC[]$,$MissRate[]$ = Predict($scheme$)
+\STATE $metric$ = CalculateMetric($IPC[]$,$MissRate[]$)
+\WHILE {$T < T_{min}$}
+	\STATE $scheme'$ = RandomNeighbor($scheme$)
+    \STATE $IPC[]$,$MissRate[]$ = Predict($scheme'$)
+    \STATE $metric'$ = CalculateMetric($IPC[]$,$MissRate[]$)
+    \IF {$metric'$ is better than current $bestMetric$}
+    	\STATE $bestMetric$ = $metric'$ 
+        \STATE $bestScheme$ = $scheme'$
+    \ENDIF
+    \IF {$metric$ is lower-is-better}
+    	\STATE {$diff$ = $metric'$ - $metric$}
+    \ELSE
+    	\STATE {$diff$ = $metric$ - $metric'$}
+    \ENDIF
+    \IF {$diff$ < 0 \OR $\exp(-diff / (k * T)) \leq Random(0,1)$ }
+    	\STATE {$metric$ = $metric'$}
+        \STATE {$scheme$ = $scheme'$}
+    \ENDIF
+    \STATE $T$ = $T$ * $TemperatureReductionRatio$
+\ENDWHILE
+\STATE \textbf{return} $bestScheme$
+
+\end{algorithmic}
+\end{algorithm}
