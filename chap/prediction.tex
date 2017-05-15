@@ -39,7 +39,7 @@ AET是一个先进的MRC采样技术，它可以在很低的时间空间开销�
 
 \begin{figure}[htbp] 
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/AET_overhead.png}
+    \includegraphics[width=0.6\linewidth]{figures/AET_overhead.png}
     \caption{AET与其他技术的时间与空间开销对比}
     \label{fig:AET_overhead}
 \end{figure}
@@ -115,7 +115,7 @@ mr(c) = P(AET(c))
  某程序占用的缓存大小和它造成的失效数息息相关，因为正是失效导致的替换抢夺了缓存空间。失效数与缓存占用同时存在着正向和负向两种关系。失效数越多，意味着更多的缓存占用，但另一方面，更多的缓存意味着更少的失效。这种关系类似控制论中的负反馈概念，最后会达到一个稳定的状态。这个稳定状态就是我们要求的状态。假设程序的访存模式是很定的，那么稳定状态时的缓存占用和失效率就是真实的占用和失效率。CAPS预测模型通过一个迭代算法求出这个稳定状态，算法伪代码如算法\ref{alg:pred}所示。
 
 \begin{algorithm}
-\caption{Prediction Algorithm}
+\caption{预测算法伪代码}
 \label{alg:pred}
 \begin{algorithmic}[1]
 \renewcommand{\algorithmicforall}{\textbf{foreach}}

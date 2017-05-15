@@ -2215,14 +2215,20 @@
     <bcf:citekey order="27">luo2001balancing</bcf:citekey>
     <bcf:citekey order="27">chang2014cooperative</bcf:citekey>
     <bcf:citekey order="28">manikantan2012probabilistic</bcf:citekey>
-    <bcf:citekey order="29">test-en</bcf:citekey>
-    <bcf:citekey order="30">test-zh</bcf:citekey>
-    <bcf:citekey order="31">test-en</bcf:citekey>
-    <bcf:citekey order="31">test-zh</bcf:citekey>
-    <bcf:citekey order="32">test-en</bcf:citekey>
-    <bcf:citekey order="33">test-zh</bcf:citekey>
+    <bcf:citekey order="29">suh2004dynamic</bcf:citekey>
+    <bcf:citekey order="30">qureshi2006utility</bcf:citekey>
+    <bcf:citekey order="31">aarts1988simulated</bcf:citekey>
+    <bcf:citekey order="31">hwang1988simulated</bcf:citekey>
+    <bcf:citekey order="32">pqos</bcf:citekey>
+    <bcf:citekey order="33">lin2008gaining</bcf:citekey>
     <bcf:citekey order="34">test-en</bcf:citekey>
-    <bcf:citekey order="34">test-zh</bcf:citekey>
+    <bcf:citekey order="35">test-zh</bcf:citekey>
+    <bcf:citekey order="36">test-en</bcf:citekey>
+    <bcf:citekey order="36">test-zh</bcf:citekey>
+    <bcf:citekey order="37">test-en</bcf:citekey>
+    <bcf:citekey order="38">test-zh</bcf:citekey>
+    <bcf:citekey order="39">test-en</bcf:citekey>
+    <bcf:citekey order="39">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ecnty/global/" type="entry" sortscheme="ecnty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

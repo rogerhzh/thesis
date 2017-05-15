@@ -19,6 +19,35 @@
 
 \refsection{0}
   \sortlist[entry]{ecnty/global/}
+    \entry{aarts1988simulated}{article}{}
+      \name{author}{2}{}{%
+        {{hash=300313f0944028375120781451094a8b}{%
+           family={Aarts},
+           familyi={A\bibinitperiod},
+           given={Emile},
+           giveni={E\bibinitperiod}}}%
+        {{hash=39631075450d6c964e40d6a94b3a899b}{%
+           family={Korst},
+           familyi={K\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {New York, NY; John Wiley}%
+        {Sons Inc.}%
+      }
+      \strng{namehash}{fb0e65efd9672ca3445e1a9bcc959486}
+      \strng{fullhash}{fb0e65efd9672ca3445e1a9bcc959486}
+      \strng{authornamehash}{fb0e65efd9672ca3445e1a9bcc959486}
+      \strng{authorfullhash}{fb0e65efd9672ca3445e1a9bcc959486}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Simulated annealing and Boltzmann machines}
+      \field{userf}{en}
+      \field{year}{1988}
+    \endentry
     \entry{azimi2009enhancing}{article}{}
       \name{author}{4}{}{%
         {{hash=c0a7a1274633c4a53948442f6aa99e09}{%
@@ -346,6 +375,34 @@
       \field{year}{2016}
       \field{pages}{351\bibrangedash 364}
       \range{pages}{14}
+    \endentry
+    \entry{hwang1988simulated}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fba6c9e96865467219bae51dfeb74d9a}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Chii-Ruey},
+           giveni={C\bibinithyphendelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fba6c9e96865467219bae51dfeb74d9a}
+      \strng{fullhash}{fba6c9e96865467219bae51dfeb74d9a}
+      \strng{authornamehash}{fba6c9e96865467219bae51dfeb74d9a}
+      \strng{authorfullhash}{fba6c9e96865467219bae51dfeb74d9a}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Applicandae Mathematicae}
+      \field{number}{1}
+      \field{title}{Simulated annealing: theory and applications}
+      \field{userf}{en}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{pages}{108\bibrangedash 111}
+      \range{pages}{4}
     \endentry
     \entry{iyer2004cqos}{inproceedings}{}
       \name{author}{1}{}{%
@@ -1138,6 +1195,14 @@
       \field{year}{2007}
       \field{pages}{26\bibrangedash 33}
       \range{pages}{8}
+    \endentry
+    \entry{pqos}{misc}{}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/01org/intel-cmt-cat/tree/master/pqos}}
+      \field{title}{User space software for Intel Resource Director Technology}
+      \field{userf}{en}
     \endentry
     \entry{west2010online}{article}{}
       \name{author}{4}{}{%

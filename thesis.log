@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  11 APR 2017 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  11 MAY 2017 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2289,7 +2289,7 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (./thesis.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 64.
+(Font)              scaled to size 10.53937pt on input line 50.
 
 
 Package biblatex Warning: The following entry could not be found
@@ -2317,13 +2317,13 @@ Package biblatex Info: Reference section=0 on input line 76.
 Package biblatex Info: Reference segment=0 on input line 76.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 26.09749pt on input line 84.
- <pkulogo.pdf, id=103, 401.5pt x 401.5pt>
+ <pkulogo.pdf, id=123, 401.5pt x 401.5pt>
 File: pkulogo.pdf Graphic file (type pdf)
  <use pkulogo.pdf>
 Package pdftex.def Info: pkulogo.pdf used on input line 84.
 (pdftex.def)             Requested size: 62.63007pt x 62.6338pt.
 
-<pkuword.pdf, id=104, 526.96875pt x 150.5625pt>
+<pkuword.pdf, id=124, 526.96875pt x 150.5625pt>
 File: pkuword.pdf Graphic file (type pdf)
  <use pkuword.pdf>
 Package pdftex.def Info: pkuword.pdf used on input line 84.
@@ -2488,13 +2488,13 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 [1
 
 
-] <figures/scheme.pdf, id=424, 578.16pt x 722.7pt>
+] <figures/scheme.pdf, id=449, 578.16pt x 722.7pt>
 File: figures/scheme.pdf Graphic file (type pdf)
  <use figures/scheme.pdf>
 Package pdftex.def Info: figures/scheme.pdf used on input line 22.
 (pdftex.def)             Requested size: 161.83559pt x 202.28845pt.
 
-<figures/throughput.pdf, id=425, 578.16pt x 722.7pt>
+<figures/throughput.pdf, id=450, 578.16pt x 722.7pt>
 File: figures/throughput.pdf Graphic file (type pdf)
 
 <use figures/throughput.pdf>
@@ -2572,12 +2572,12 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 15.05624pt on input line 5.
-<figures/CacheHierarchy.jpg, id=516, 741.77126pt x 386.44376pt>
+<figures/CacheHierarchy.jpg, id=541, 741.77126pt x 386.44376pt>
 File: figures/CacheHierarchy.jpg Graphic file (type jpg)
 
 <use figures/CacheHierarchy.jpg>
 Package pdftex.def Info: figures/CacheHierarchy.jpg used on input line 17.
-(pdftex.def)             Requested size: 359.64394pt x 187.36603pt.
+(pdftex.def)             Requested size: 314.68588pt x 163.94453pt.
 
 Overfull \hbox (14.78128pt too wide) in paragraph at lines 22--23
 []\C70/rm/m/n/12.045/59 Ç \C70/rm/m/n/12.045/56 ˛[]\T1/ntxtlf/m/n/12.045 2.1[]\
@@ -2610,28 +2610,44 @@ ff ^^H|\T1/ntxtlf/m/n/12.045 Associativity|\C70/rm/m/n/12.045/ff 	|
 
 
 
-] <figures/CacheAsso1.png, id=528, 172.39406pt x 226.59656pt>
+] <figures/CacheAsso1.png, id=553, 172.39406pt x 226.59656pt>
 File: figures/CacheAsso1.png Graphic file (type png)
 
 <use figures/CacheAsso1.png>
 Package pdftex.def Info: figures/CacheAsso1.png used on input line 38.
 (pdftex.def)             Requested size: 97.10504pt x 127.63658pt.
 
-<figures/CacheAsso2.png, id=530, 170.88844pt x 225.84375pt>
+<figures/CacheAsso2.png, id=555, 170.88844pt x 225.84375pt>
 File: figures/CacheAsso2.png Graphic file (type png)
 
 <use figures/CacheAsso2.png>
 Package pdftex.def Info: figures/CacheAsso2.png used on input line 42.
 (pdftex.def)             Requested size: 97.10504pt x 128.33597pt.
 
-<figures/CacheAsso3.png, id=531, 368.1253pt x 226.59656pt>
+<figures/CacheAsso3.png, id=556, 368.1253pt x 226.59656pt>
 File: figures/CacheAsso3.png Graphic file (type png)
 
 <use figures/CacheAsso3.png>
 Package pdftex.def Info: figures/CacheAsso3.png used on input line 46.
 (pdftex.def)             Requested size: 210.3912pt x 129.50713pt.
- [6 <./figures/CacheHierarchy.jpg>] [7 <./figures/CacheAsso1.png> <./figures/Ca
-cheAsso2.png> <./figures/CacheAsso3.png>] [8]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 55.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 55.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 55.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 55.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 55.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 55.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 55.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 55.
+ [6 <./figures/CacheHierarchy.jpg> <./figures/CacheAsso1.png> <./figures/CacheA
+sso2.png> <./figures/CacheAsso3.png>] [7] [8]
 Overfull \hbox (20.81544pt too wide) in paragraph at lines 97--98
 []\T1/ntxtlf/m/n/12.045 CAT\C70/rm/m/n/12.045/90 ^^Z \C70/rm/m/n/12.045/8f « \C
 70/rm/m/n/12.045/4e ^^@ * \C70/rm/m/n/12.045/88 ´ \C70/rm/m/n/12.045/79  \C70/
@@ -2670,11 +2686,11 @@ m/m/n/12.045/52 ^^F \C70/rm/m/n/12.045/91 M \C70/rm/m/n/12.045/67 	 \C70/rm/m/n
 txtlf/m/n/12.045 CLOS[1]\C70/rm/m/n/12.045/52 ^^F
  []
 
-<figures/CLOS.png, id=575, 328.22626pt x 98.16675pt>
+<figures/CLOS.png, id=601, 328.22626pt x 98.16675pt>
 File: figures/CLOS.png Graphic file (type png)
  <use figures/CLOS.png>
 Package pdftex.def Info: figures/CLOS.png used on input line 103.
-(pdftex.def)             Requested size: 359.64394pt x 107.56433pt.
+(pdftex.def)             Requested size: 314.68588pt x 94.11766pt.
 
 [9] [10 <./figures/CLOS.png>]) [11]
 \openout2 = `chap/prediction.aux'.
@@ -2734,19 +2750,19 @@ n/12.045/4e ‰ \C70/rm/m/n/12.045/65 ˆ|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12
 xtlf/m/n/12.045 filter_memop()|\C70/rm/m/n/12.045/ff ^^L|
  []
 
-[14] <figures/pin.png, id=642, 874.01532pt x 322.95656pt>
+[14] <figures/pin.png, id=667, 874.01532pt x 322.95656pt>
 File: figures/pin.png Graphic file (type png)
 
 <use figures/pin.png>
 Package pdftex.def Info: figures/pin.png used on input line 33.
 (pdftex.def)             Requested size: 359.64394pt x 132.89105pt.
 
-<figures/AET_overhead.png, id=643, 395.22656pt x 315.42844pt>
+<figures/AET_overhead.png, id=668, 395.22656pt x 315.42844pt>
 File: figures/AET_overhead.png Graphic file (type png)
 
 <use figures/AET_overhead.png>
 Package pdftex.def Info: figures/AET_overhead.png used on input line 42.
-(pdftex.def)             Requested size: 359.64394pt x 287.03069pt.
+(pdftex.def)             Requested size: 269.73466pt x 215.27301pt.
  [15 <./figures/pin.png> <./figures/AET_overhead.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.045pt on input line 51.
@@ -2786,7 +2802,10 @@ rm/m/n/12.045/79 ˚ \C70/rm/m/n/12.045/52 ® \C70/rm/m/n/12.045/4e Ü$\OML/ntxmi/m
 f n$\OML/ntxmi/m/it/12.045 m$|\C70/rm/m/n/12.045/ff ^^L|
  []
 
-[16]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
 Overfull \hbox (8.95137pt too wide) in paragraph at lines 102--103
 []\C70/rm/m/n/12.045/7e ¸ \C70/rm/m/n/12.045/4e 
 |\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/62 ^^Q \C70/rm/m/n/12.045/4e Ï \
@@ -2847,11 +2866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
 Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyl
 e (quanjiao) on input line 183.
-
-Underfull \vbox (badness 2134) has occurred while \output is active []
-
- [20])
-[21]
+[20]) [21]
 \openout2 = `chap/allocation.aux'.
 
  (./chap/allocation.tex [22
@@ -2877,26 +2892,399 @@ n/12.045/73 á \C70/rm/m/n/12.045/63 – \C70/rm/m/n/12.045/53 G |\C70/rm/m/n/12.0
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24])
-[25] [26]
+ [24]
+[25]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+ [26]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 116.
+ [27]) [28]
 \openout2 = `chap/evaluation.aux'.
 
  (./chap/evaluation.tex
 Á¨¨‰∫îÁ´†
-) [27
+
+Overfull \hbox (16.58786pt too wide) in paragraph at lines 8--9
+[]\C70/rm/m/n/12.045/62 ^^Q \C70/rm/m/n/12.045/4e Ï \C70/rm/m/n/12.045/76 Ñ \C7
+0/rm/m/n/12.045/5b û \C70/rm/m/n/12.045/9a å \C70/rm/m/n/12.045/6d K \C70/rm/m/
+n/12.045/8b ’ \C70/rm/m/n/12.045/67 : \C70/rm/m/n/12.045/56 h \C70/rm/m/n/12.04
+5/91 « \C70/rm/m/n/12.045/75 ( \C70/rm/m/n/12.045/4e Ü \C70/rm/m/n/12.045/82 Ò 
+\C70/rm/m/n/12.045/72 y \C70/rm/m/n/12.045/5c ^^T \C70/rm/m/n/12.045/81 Û \C70/
+rm/m/n/12.045/5f :\T1/ntxtlf/m/n/12.045 Xeon E5-2699 v4\C70/rm/m/n/12.045/59 ^^
+D \C70/rm/m/n/12.045/74 ^^F \C70/rm/m/n/12.045/56 h|\C70/rm/m/n/12.045/30 ^^B| 
+\C70/rm/m/n/12.045/8b Â \C70/rm/m/n/12.045/59 ^^D \C70/rm/m/n/12.045/74 ^^F \C7
+0/rm/m/n/12.045/56 h \C70/rm/m/n/12.045/65 / \C70/rm/m/n/12.045/63 ^^A\T1/ntxtl
+f/m/n/12.045 CAT\C70/rm/m/n/12.045/62 Ä
+ []
+
+
+Overfull \hbox (28.50043pt too wide) in paragraph at lines 8--9
+\C70/rm/m/n/12.045/6b d \C70/rm/m/n/12.045/59 ^^V|\C70/rm/m/n/12.045/ff ^^L| \C
+70/rm/m/n/12.045/6b œ \C70/rm/m/n/12.045/4e * \C70/rm/m/n/12.045/68 8 \C70/rm/m
+/n/12.045/67 	 \C70/rm/m/n/12.045/4e ^^@ *\T1/ntxtlf/m/n/12.045 32KB\C70/rm/m/n
+/12.045/76 Ñ \C70/rm/m/n/12.045/79 ¡ \C70/rm/m/n/12.045/67 	\T1/ntxtlf/m/n/12.0
+45 L1\C70/rm/m/n/12.045/63 ^^G \C70/rm/m/n/12.045/4e ‰ \C70/rm/m/n/12.045/7f ^^
+S \C70/rm/m/n/12.045/5b X|\C70/rm/m/n/12.045/30 ^^A| \C70/rm/m/n/12.045/4e ^^@ 
+*\T1/ntxtlf/m/n/12.045 32KB\C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/79 ¡ \C70
+/rm/m/n/12.045/67 	\T1/ntxtlf/m/n/12.045 L1\C70/rm/m/n/12.045/65 p \C70/rm/m/n/
+12.045/63 n \C70/rm/m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.04
+5/54 å \C70/rm/m/n/12.045/4e ^^@ *\T1/ntxtlf/m/n/12.045 256KB\C70/rm/m/n/12.045
+/76 Ñ
+ []
+
+
+Overfull \hbox (27.53687pt too wide) in paragraph at lines 8--9
+\C70/rm/m/n/12.045/79 ¡ \C70/rm/m/n/12.045/67 	\T1/ntxtlf/m/n/12.045 L2\C70/rm/
+m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/
+n/12.045/56 ‡ \C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/59 ^^Z \C70/rm/m/n/12.
+045/7e ß \C70/rm/m/n/12.045/91 « \C70/rm/m/n/12.045/75 ( \C70/rm/m/n/12.045/4e 
+Ü \C70/rm/m/n/12.045/53 ^^E \C70/rm/m/n/12.045/54 + \C70/rm/m/n/12.045/5f ^^O \
+C70/rm/m/n/12.045/8b æ °|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/62 @ \C7
+0/rm/m/n/12.045/4e Â \C70/rm/m/n/12.045/57 (\T1/ntxtlf/m/n/12.045 CAPS\C70/rm/m
+/n/12.045/4e - \C70/rm/m/n/12.045/62 ^^Q \C70/rm/m/n/12.045/4e Ï \C70/rm/m/n/12
+.045/5e v \C70/rm/m/n/12.045/6c ° \C70/rm/m/n/12.045/67 	 \C70/rm/m/n/12.045/80
+ ^^C \C70/rm/m/n/12.045/86 Q \C70/rm/m/n/12.045/79 ¡ \C70/rm/m/n/12.045/67 	 \C
+70/rm/m/n/12.045/76 Ñ\T1/ntxtlf/m/n/12.045 L1\C70/rm/m/n/12.045/54 å\T1/ntxtlf/
+m/n/12.045 L2\C70/rm/m/n/12.045/7f ^^S
+ []
+
+
+Overfull \hbox (33.80013pt too wide) in paragraph at lines 8--9
+\C70/rm/m/n/12.045/88 L \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/54 ^^L \C70/
+rm/m/n/12.045/65 ˆ|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/4e ^^@ õ \C70/
+rm/m/n/12.045/51 s \C70/rm/m/n/12.045/95 . \C70/rm/m/n/12.045/53 ¬ \C70/rm/m/n/
+12.045/65 p|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/6b ‘ \C70/rm/m/n/12.0
+45/59 Ç \C70/rm/m/n/12.045/8f – \C70/rm/m/n/12.045/88 L \C70/rm/m/n/12.045/65 ˆ
+\T1/ntxtlf/m/n/12.045 IPC|\C70/rm/m/n/12.045/30 ^^A| \T1/ntxtlf/m/n/12.045 LLC\
+C70/rm/m/n/12.045/59 1 \C70/rm/m/n/12.045/65 H p \C70/rm/m/n/12.045/7b I I \C70
+/rm/m/n/12.045/4f ^^Z \C70/rm/m/n/12.045/90 ^^Z \C70/rm/m/n/12.045/8f « \C70/rm
+/m/n/12.045/78 l \C70/rm/m/n/12.045/4e ˆ \C70/rm/m/n/12.045/8b ° \C70/rm/m/n/12
+.045/65 p \C70/rm/m/n/12.045/56 h |\C70/rm/m/n/12.045/ff ^^H|\T1/ntxtlf/m/n/12.
+045 Performance
+ []
+
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [29
 
 
 
 ]
+Overfull \hbox (7.21698pt too wide) in paragraph at lines 14--15
+\C70/rm/m/n/12.045/67 	 \C70/rm/m/n/12.045/8f É \C70/rm/m/n/12.045/59 ' \C70/rm
+/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X \C70/rm/m/n/
+12.045/97 ^^@ \C70/rm/m/n/12.045/6c B|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12
+.045/57 ( \C70/rm/m/n/12.045/7a ﬁ \C70/rm/m/n/12.045/4e â - \C70/rm/m/n/12.045/
+4f ^^Z \C70/rm/m/n/12.045/53 ` \C70/rm/m/n/12.045/75 ( \C70/rm/m/n/12.045/8f É 
+\C70/rm/m/n/12.045/59 ^^Z \C70/rm/m/n/12.045/7f ^^S \C70/rm/m/n/12.045/5b X \C7
+0/rm/m/n/12.045/8d D \C70/rm/m/n/12.045/6e ê|\C70/rm/m/n/12.045/ff ^^L| \T1/ntx
+tlf/m/n/12.045 A\C70/rm/m/n/12.045/7c { \C70/rm/m/n/12.045/6d K \C70/rm/m/n/12.
+045/8b ’ \C70/rm/m/n/12.045/7a  \C70/rm/m/n/12.045/5e è \C70/rm/m/n/12.045/4e 
+^^@ \C70/rm/m/n/12.045/51 q \C70/rm/m/n/12.045/67 	\T1/ntxtlf/m/n/12.045 9\C70/
+rm/m/n/12.045/4e *|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/52 i \C70/rm/m
+/n/12.045/4e \T1/ntxtlf/m/n/12.045 11\C70/rm/m/n/12.045/4e *
+ []
+
+
+Overfull \hbox (23.51384pt too wide) in paragraph at lines 14--15
+\C70/rm/m/n/12.045/7a  \C70/rm/m/n/12.045/5e è \C70/rm/m/n/12.045/68 9 \C70/rm
+/m/n/12.045/63 n \C70/rm/m/n/12.045/5b É \C70/rm/m/n/12.045/4e Ï \C70/rm/m/n/12
+.045/76 Ñ \C70/rm/m/n/12.045/8b ø \C70/rm/m/n/12.045/5b X \C70/rm/m/n/12.045/63
+ ^^G \C70/rm/m/n/12.045/4e ‰ \C70/rm/m/n/12.045/53 ` \C70/rm/m/n/12.045/6b ‘ \C
+70/rm/m/n/12.045/8f € \C70/rm/m/n/12.045/4e ^^@ \C70/rm/m/n/12.045/6b e \C70/rm
+/m/n/12.045/52 ^^R ^^F \C70/rm/m/n/12.045/4e :\T1/ntxtlf/m/n/12.045 B\C70/rm/m/
+n/12.045/7c { \C70/rm/m/n/12.045/54 å\T1/ntxtlf/m/n/12.045 C\C70/rm/m/n/12.045/
+7c {|\C70/rm/m/n/12.045/30 ^^B| \T1/ntxtlf/m/n/12.045 Slowdown\C70/rm/m/n/12.04
+5/5c ^^O \C70/rm/m/n/12.045/4e é \C70/rm/m/n/12.045/7b I \C70/rm/m/n/12.045/4e 
+é\T1/ntxtlf/m/n/12.045 10%\C70/rm/m/n/12.045/4e ^^T \C70/rm/m/n/12.045/6b œ\T1/
+ntxtlf/m/n/12.045 1000\C70/rm/m/n/12.045/67 a
+ []
+
+
+Overfull \hbox (2.8446pt too wide) in paragraph at lines 14--15
+\C70/rm/m/n/12.045/7a  \C70/rm/m/n/12.045/5e è \C70/rm/m/n/12.045/88 ´ \C70/rm
+/m/n/12.045/5f R \C70/rm/m/n/12.045/4f M\T1/ntxtlf/m/n/12.045 C\C70/rm/m/n/12.0
+45/7c {|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/5b É \C70/rm/m/n/12.045/4
+e Ï \C70/rm/m/n/12.045/76 Ñ\T1/ntxtlf/m/n/12.045 Slowdown\C70/rm/m/n/12.045/5c 
+^^O \C70/rm/m/n/12.045/4e é\T1/ntxtlf/m/n/12.045 10%|\C70/rm/m/n/12.045/ff ^^L|
+ \C70/rm/m/n/12.045/5e v \C70/rm/m/n/12.045/4e ^^T \C70/rm/m/n/12.045/6b œ\T1/n
+txtlf/m/n/12.045 1000\C70/rm/m/n/12.045/67 a \C70/rm/m/n/12.045/63 ^^G \C70/rm/
+m/n/12.045/4e ‰ \C70/rm/m/n/12.045/90   \C70/rm/m/n/12.045/62 ^^P \C70/rm/m/n/1
+2.045/76 Ñ\T1/ntxtlf/m/n/12.045 L3\C70/rm/m/n/12.045/8b ø \C70/rm/m/n/12.045/95
+ Ó \C70/rm/m/n/12.045/4e _ \C70/rm/m/n/12.045/5c ^^O \C70/rm/m/n/12.045/4e é\T1
+/ntxtlf/m/n/12.045 5|\C70/rm/m/n/12.045/ff ^^L|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/ntxtlf/m/n/12.045 410.bwaves 434.zeusmp 437.leslie3d 459.GemsFDTD
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 30--30
+[]|\T1/ntxtlf/m/n/12.045 433.milc 445.gobmk 453.povray 456.hm-mer 458.sjeng
+ []
+
+
+Overfull \hbox (5.83136pt too wide) in paragraph at lines 33--34
+\C70/rm/m/n/12.045/57 G \C70/rm/m/n/12.045/59 1 \C70/rm/m/n/12.045/65 H p |\C70
+/rm/m/n/12.045/ff ^^H|\T1/ntxtlf/m/n/12.045 Average MPKI|\C70/rm/m/n/12.045/ff 
+	||\C70/rm/m/n/12.045/30 ^^A| \C70/rm/m/n/12.045/54 ^^^ ^^P \C70/rm/m/n/12.045/
+91 œ |\C70/rm/m/n/12.045/ff ^^H|\T1/ntxtlf/m/n/12.045 Throughput|\C70/rm/m/n/12
+.045/ff 	||\C70/rm/m/n/12.045/30 ^^A| \C70/rm/m/n/12.045/5e s \C70/rm/m/n/12.04
+5/57 G \C70/rm/m/n/12.045/65 H \C70/rm/m/n/12.045/73 á \C70/rm/m/n/12.045/4e  
+\C70/rm/m/n/12.045/96 M |\C70/rm/m/n/12.045/ff ^^H|\T1/ntxtlf/m/n/12.045 Averag
+e slow-down|\C70/rm/m/n/12.045/ff 	||\C70/rm/m/n/12.045/30 ^^A|
+ []
+
+[30] <figures/avg_analysis.pdf, id=904, 2890.8pt x 1445.4pt>
+File: figures/avg_analysis.pdf Graphic file (type pdf)
+
+<use figures/avg_analysis.pdf>
+Package pdftex.def Info: figures/avg_analysis.pdf used on input line 43.
+(pdftex.def)             Requested size: 404.59515pt x 202.28845pt.
+
+Overfull \hbox (25.85008pt too wide) in paragraph at lines 48--49
+[]\C70/rm/m/n/12.045/62 ^^Q \C70/rm/m/n/12.045/4e Ï \C70/rm/m/n/12.045/5b û \C7
+0/rm/m/n/12.045/73 ∞ \C70/rm/m/n/12.045/4e Ü\T1/ntxtlf/m/n/12.045 5\C70/rm/m/n/
+12.045/79 Õ \C70/rm/m/n/12.045/4f ^^X \C70/rm/m/n/12.045/53 ^^V \C70/rm/m/n/12.
+045/76 Ó \C70/rm/m/n/12.045/68 ^^G|\C70/rm/m/n/12.045/30 ^^B| \T1/ntxtlf/m/n/12
+.045 Average MPKI|\C70/rm/m/n/12.045/30 ^^A| \T1/ntxtlf/m/n/12.045 Average slow
+-down|\C70/rm/m/n/12.045/30 ^^A| \T1/ntxtlf/m/n/12.045 Fair slow-down\C70/rm/m/
+n/12.045/54 å\T1/ntxtlf/m/n/12.045 Maximum
+ []
+
+
+Overfull \hbox (19.46657pt too wide) in paragraph at lines 48--49
+\T1/ntxtlf/m/n/12.045 slow-down\C70/rm/m/n/12.045/66 / \C70/rm/m/n/12.045/8d ä 
+\C70/rm/m/n/12.045/5c ^^O \C70/rm/m/n/12.045/8d ä \C70/rm/m/n/12.045/59 } \C70/
+rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/63 ^^G \C70/rm/m/n/12.045/68 ^^G|\C70/rm/
+m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/80 ^^L\T1/ntxtlf/m/n/12.045 Throughput\C7
+0/rm/m/n/12.045/66 / \C70/rm/m/n/12.045/8d ä \C70/rm/m/n/12.045/59 ' \C70/rm/m/
+n/12.045/8d ä \C70/rm/m/n/12.045/59 } \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.04
+5/63 ^^G \C70/rm/m/n/12.045/68 ^^G|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.04
+5/5b ˘ \C70/rm/m/n/12.045/4e é \C70/rm/m/n/12.045/6b œ \C70/rm/m/n/12.045/4e ^^
+@ * \C70/rm/m/n/12.045/63 ^^G \C70/rm/m/n/12.045/68 ^^G|\C70/rm/m/n/12.045/ff ^
+^L| \T1/ntxtlf/m/n/12.045 CAPS\C70/rm/m/n/12.045/4f ^^Z
+ []
+
+[31 <./figures/avg_analysis.pdf>]
+<figures/mpki.pdf, id=959, 2890.8pt x 1806.75pt>
+File: figures/mpki.pdf Graphic file (type pdf)
+ <use figures/mpki.pdf>
+Package pdftex.def Info: figures/mpki.pdf used on input line 68.
+(pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
+
+<figures/ipc.pdf, id=960, 2890.8pt x 1806.75pt>
+File: figures/ipc.pdf Graphic file (type pdf)
+ <use figures/ipc.pdf>
+Package pdftex.def Info: figures/ipc.pdf used on input line 72.
+(pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
+
+<figures/ws.pdf, id=961, 2890.8pt x 1806.75pt>
+File: figures/ws.pdf Graphic file (type pdf)
+ <use figures/ws.pdf>
+Package pdftex.def Info: figures/ws.pdf used on input line 76.
+(pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
+
+<figures/fs.pdf, id=962, 2890.8pt x 1806.75pt>
+File: figures/fs.pdf Graphic file (type pdf)
+ <use figures/fs.pdf>
+Package pdftex.def Info: figures/fs.pdf used on input line 80.
+(pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
+
+<figures/ms.pdf, id=963, 2890.8pt x 1806.75pt>
+File: figures/ms.pdf Graphic file (type pdf)
+ <use figures/ms.pdf>
+Package pdftex.def Info: figures/ms.pdf used on input line 84.
+(pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
+
+Overfull \hbox (7.5181pt too wide) in paragraph at lines 93--94
+\C70/rm/m/n/12.045/52 †|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/4e ^^M \C
+70/rm/m/n/12.045/91 Õ \C70/rm/m/n/12.045/53 ‡ \C70/rm/m/n/12.045/65 π \C70/rm/m
+/n/12.045/68 H \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/4f ^^X \C70/rm/m/n/12
+.045/53 ^^V \C70/rm/m/n/12.045/65 H \C70/rm/m/n/12.045/67 ú \C70/rm/m/n/12.045/
+4f ^^Z \C70/rm/m/n/12.045/8d ä \C70/rm/m/n/12.045/67 e \C70/rm/m/n/12.045/5d Ó|
+\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/57 ( \C70/rm/m/n/12.045/67 – \C70
+/rm/m/n/12.045/4e õ \C70/rm/m/n/12.045/60 ≈ \C70/rm/m/n/12.045/51 µ \C70/rm/m/n
+/12.045/4e  \C70/rm/m/n/12.045/75 ^^Z \C70/rm/m/n/12.045/81 Û \C70/rm/m/n/12.0
+45/4f ^^Z \C70/rm/m/n/12.045/8d w \C70/rm/m/n/12.045/52 0 \C70/rm/m/n/12.045/53
+ Õ \C70/rm/m/n/12.045/4f \ \C70/rm/m/n/12.045/75 (|\C70/rm/m/n/12.045/ff ^^L| \
+C70/rm/m/n/12.045/6b ‘ \C70/rm/m/n/12.045/59 Ç \C70/rm/m/n/12.045/57 (\T1/ntxtl
+f/m/n/12.045 Average
+ []
+
+
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+ [32]
+[33 <./figures/mpki.pdf> <./figures/ipc.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/ipc.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./figures/ws.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/ws.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./figures/fs.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/fs.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./figures/ms.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/ms.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>] <figures/d20_miss.pdf, id=1150, 8672.4pt x 1084.05pt>
+File: figures/d20_miss.pdf Graphic file (type pdf)
+
+<use figures/d20_miss.pdf>
+Package pdftex.def Info: figures/d20_miss.pdf used on input line 146.
+(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+
+<figures/d20_ipc.pdf, id=1151, 8672.4pt x 1084.05pt>
+File: figures/d20_ipc.pdf Graphic file (type pdf)
+ <use figures/d20_ipc.pdf>
+Package pdftex.def Info: figures/d20_ipc.pdf used on input line 150.
+(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+
+<figures/d20_ws.pdf, id=1152, 8672.4pt x 1084.05pt>
+File: figures/d20_ws.pdf Graphic file (type pdf)
+ <use figures/d20_ws.pdf>
+Package pdftex.def Info: figures/d20_ws.pdf used on input line 154.
+(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+
+<figures/d20_fs.pdf, id=1153, 8672.4pt x 1084.05pt>
+File: figures/d20_fs.pdf Graphic file (type pdf)
+ <use figures/d20_fs.pdf>
+Package pdftex.def Info: figures/d20_fs.pdf used on input line 158.
+(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+
+<figures/d20_ms.pdf, id=1154, 8672.4pt x 1084.05pt>
+File: figures/d20_ms.pdf Graphic file (type pdf)
+ <use figures/d20_ms.pdf>
+Package pdftex.def Info: figures/d20_ms.pdf used on input line 162.
+(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+
+Overfull \hbox (15.58824pt too wide) in paragraph at lines 175--176
+\C70/rm/m/n/12.045/5b ˘ \C70/rm/m/n/12.045/65 t \C70/rm/m/n/12.045/4f S \C70/rm
+/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/5d Â \C70/rm/m/n/12.045/4f \ \C70/rm/m/n/12
+.045/8d ^^_ \C70/rm/m/n/12.045/8f } \C70/rm/m/n/12.045/5f q \C70/rm/m/n/12.045/
+54 Õ \C70/rm/m/n/12.045/4e ^^M \C70/rm/m/n/12.045/59 '|\C70/rm/m/n/12.045/ff ^^
+L| \C70/rm/m/n/12.045/80 ^^C \C70/rm/m/n/12.045/86 Q \C70/rm/m/n/12.045/52 0 \C
+70/rm/m/n/12.045/51 x \C70/rm/m/n/12.045/57 ã \C70/rm/m/n/12.045/60 '|\C70/rm/m
+/n/12.045/ff ^^L| \C70/rm/m/n/12.045/62 @ \C70/rm/m/n/12.045/4e Â \C70/rm/m/n/1
+2.045/67 , \C70/rm/m/n/12.045/4e * \C70/rm/m/n/12.045/68 H \C70/rm/m/n/12.045/4
+e - \C70/rm/m/n/12.045/5c 1 \C70/rm/m/n/12.045/6c ° \C70/rm/m/n/12.045/67 	 \C7
+0/rm/m/n/12.045/53 ^^E \C70/rm/m/n/12.045/54 +\T1/ntxtlf/m/n/12.045 C\C70/rm/m/
+n/12.045/7c { \C70/rm/m/n/12.045/7a  \C70/rm/m/n/12.045/5e è|\C70/rm/m/n/12.04
+5/30 ^^B| \C70/rm/m/n/12.045/56 ˛[]\T1/ntxtlf/m/n/12.045 5.4[]\C70/rm/m/n/12.04
+5/5c U
+ []
+
+[34] [35 <./figures/d20_miss.pdf> <./figures/d20_ipc.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/d20_ipc.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./figures/d20_ws.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/d20_ws.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./figures/d20_fs.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/d20_fs.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./figures/d20_ms.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/d20_ms.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] <figures/case_study.pdf, id=1351, 3613.5pt x 2168.1pt>
+File: figures/case_study.pdf Graphic file (type pdf)
+
+<use figures/case_study.pdf>
+Package pdftex.def Info: figures/case_study.pdf used on input line 179.
+(pdftex.def)             Requested size: 427.07419pt x 256.22395pt.
+ <figures/occ.pdf, id=1352, 2890.8pt x 1445.4pt>
+File: figures/occ.pdf Graphic file (type pdf)
+
+<use figures/occ.pdf>
+Package pdftex.def Info: figures/occ.pdf used on input line 186.
+(pdftex.def)             Requested size: 404.59515pt x 202.28845pt.
+ <figures/case_ipc.pdf, id=1354, 2890.8pt x 2890.8pt>
+File: figures/case_ipc.pdf Graphic file (type pdf)
+
+<use figures/case_ipc.pdf>
+Package pdftex.def Info: figures/case_ipc.pdf used on input line 196.
+(pdftex.def)             Requested size: 359.64394pt x 359.62883pt.
+ [36 <./figures/case_study.pdf>])
+Overfull \hbox (10.43298pt too wide) in paragraph at lines 201--106
+\C70/rm/m/n/12.045/52 ^^F \C70/rm/m/n/12.045/91 M \C70/rm/m/n/12.045/7e Ÿ\T1/nt
+xtlf/m/n/12.045 B\C70/rm/m/n/12.045/7c { \C70/rm/m/n/12.045/7a  \C70/rm/m/n/12
+.045/5e è \C70/rm/m/n/12.045/8f Ÿ \C70/rm/m/n/12.045/4e ^^@ \C70/rm/m/n/12.045/
+57 ˙ \C70/rm/m/n/12.045/67 , \C70/rm/m/n/12.045/4f ^^X \C70/rm/m/n/12.045/53 ^^
+V \C70/rm/m/n/12.045/60 ^^] \C70/rm/m/n/12.045/8d Ô|\C70/rm/m/n/12.045/ff ^^L| 
+\C70/rm/m/n/12.045/4f F \C70/rm/m/n/12.045/4e $ \C70/rm/m/n/12.045/79 Õ \C70/rm
+/m/n/12.045/65 π \C70/rm/m/n/12.045/68 H \C70/rm/m/n/12.045/8f ÿ \C70/rm/m/n/12
+.045/66 / \C70/rm/m/n/12.045/67 	 \C70/rm/m/n/12.045/4e ^^@ õ ^^M \C70/rm/m/n/1
+2.045/54 ^^L \C70/rm/m/n/12.045/4e K \C70/rm/m/n/12.045/59 ^^D|\C70/rm/m/n/12.0
+45/30 ^^B| \C70/rm/m/n/12.045/94 à \C70/rm/m/n/12.045/5b ˘\T1/ntxtlf/m/n/12.045
+ Throughput\C70/rm/m/n/12.045/76 Ñ
+ []
+
+
+Overfull \hbox (55.07153pt too wide) in paragraph at lines 201--106
+\C70/rm/m/n/12.045/5b É \C70/rm/m/n/12.045/76 Ñ\T1/ntxtlf/m/n/12.045 IPC\C70/rm
+/m/n/12.045/8f æ \C70/rm/m/n/12.045/52 0 \C70/rm/m/n/12.045/4e Ü\T1/ntxtlf/m/n/
+12.045 1.70|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/80 ^^L\T1/ntxtlf/m/n/
+12.045 429.mcf\C70/rm/m/n/12.045/66 / \C70/rm/m/n/12.045/4e ^^@ * \C70/rm/m/n/1
+2.045/4f N\T1/ntxtlf/m/n/12.045 IPC\C70/rm/m/n/12.045/7a  \C70/rm/m/n/12.045/5
+e è|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/5b É \C70/rm/m/n/12.045/53 U 
+\C70/rm/m/n/12.045/72 Ï \C70/rm/m/n/12.045/62 g \C70/rm/m/n/12.045/88 L \C70/rm
+/m/n/12.045/65 ˆ \C70/rm/m/n/12.045/76 Ñ\T1/ntxtlf/m/n/12.045 IPC\C70/rm/m/n/12
+.045/53 Í \C70/rm/m/n/12.045/67 	\T1/ntxtlf/m/n/12.045 0.58|\C70/rm/m/n/12.045/
+30 ^^B| \C70/rm/m/n/12.045/57 (\T1/ntxtlf/m/n/12.045 Throughput\C70/rm/m/n/12.0
+45/65 π
+ []
+
+[37 <./figures/occ.pdf>] [38 <./figures/case_ipc.pdf>]
 \openout2 = `chap/conclusion.aux'.
 
- (./chap/conclusion.tex [28
-
-
-
-]
+ (./chap/conclusion.tex
 Á¨¨ÂÖ≠Á´†
-) [29] [30
+) [39
+
+
+
+] [40
 
 
 ]
@@ -2910,6 +3298,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.53937pt on input line 114.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.53937pt on input line 114.
+ [41]
 LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 114
 .
  (c:/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxtt.fd
@@ -2921,11 +3310,11 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 114.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 114.
- [31]
-[32] [33]
+
+[42] [43]
 \openout2 = `chap/encl1.aux'.
 
- (./chap/encl1.tex [34
+ (./chap/encl1.tex [44
 
 
 ]
@@ -2936,23 +3325,23 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
-) [35] [36
+) [45] [46
 
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [37
+ (./chap/acknowledge.tex) [47
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [38
+ (./chap/originauth.tex [48
 
 
 
-]) [39]
+]) [49]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 
@@ -2963,24 +3352,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9C72AB50D4610A1A71F2A20C720CFE4B;2158.
+(rerunfilecheck)             Checksum: 096EEF0A4A869B57A0930F045F003CA4;2697.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46011 strings out of 493013
- 828449 string characters out of 6136993
- 1203627 words of memory out of 5000000
- 48003 multiletter control sequences out of 15000+600000
- 222358 words of font info for 515 fonts, out of 8000000 for 9000
+ 46299 strings out of 493013
+ 833185 string characters out of 6136993
+ 1204753 words of memory out of 5000000
+ 48215 multiletter control sequences out of 15000+600000
+ 224788 words of font info for 524 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,16n,102p,10459b,1421s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,102p,10459b,1430s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/s
 imkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf>{c:/texlive
-/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/WINDOWS/fonts/simsun.tt
-c><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/s
-imkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS
+/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/WINDOWS/fonts/simhei.tt
+f><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/s
+imsun.ttc><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS
 /fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:
 /WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai
 .ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/font
@@ -2989,27 +3378,27 @@ OWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf>
 <c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/sim
 kai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/f
 onts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/W
-INDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simsun.t
-tc><c:/WINDOWS/fonts/simhei.ttf>{c:/texlive/2016/texmf-dist/fonts/enc/dvips/new
-tx/ntx-ec-tlf.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf
-.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/WINDOWS/fonts/
-simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOW
-S/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c
-:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhe
-i.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fon
-ts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WIN
-DOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc
+INDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.t
+tf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/simkai.ttf><c:/WINDOWS/fonts/
+simsun.ttc><c:/WINDOWS/fonts/simhei.ttf>{c:/texlive/2016/texmf-dist/fonts/enc/d
+vips/newtx/ntx-ec-tlf.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx
+-ot1-tlf.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/WINDOW
+S/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c
+:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsu
+n.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fon
+ts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WIN
+DOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf
 ><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/si
 msun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/
-fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/
-WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.
+fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/
+WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.
 ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts
 /simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDO
-WS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><
-c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simh
-ei.ttf>{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/WINDOW
-S/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c
-:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsu
+WS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><
+c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simh
+ei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fo
+nts/simhei.ttf>{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c
+:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsu
 n.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fon
 ts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WIN
 DOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc
@@ -3018,8 +3407,8 @@ msun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/
 fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/
 WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.
 ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts
-/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDO
-WS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><
+/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDO
+WS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><
 c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/sims
 un.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fo
 nts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WI
@@ -3031,41 +3420,42 @@ imsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS
 .ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/font
 s/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WIND
 OWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf>
-<c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/sim
-fang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOW
-S/fonts/simhei.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf>
-<c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/s
-imfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WIND
-OWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.t
-tf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/font
-s/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/W
-INDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simfang.
-ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fon
-ts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WIN
-DOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf
+<c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/sim
+sun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/f
+onts/simsun.ttc><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:
+/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simfa
+ng.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/
+fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><
+c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/si
+mfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDO
+WS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.tt
+f><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/
+simhei.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WIND
+OWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf
 ><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/si
 mhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/
 fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/
-WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.
-ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts
-/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDO
+WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.
+ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts
+/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDO
 WS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><
-c:/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2016/texmf-dist/f
-onts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/tex-gyre/qtmri.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/rnt
-xmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2016/te
-xmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/txfonts/t1xtt.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
-ewtx/txexs.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txmia.pfb
-><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2
-016/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2016/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (49 pages, 1156471 bytes).
+c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simh
+ei.ttf><c:/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/tex
+live/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2016/texm
+f-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2016/texmf-dist/fonts/t
+ype1/public/tex-gyre/qtmri.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
+ewtx/rntxmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.p
+fb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive
+/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+public/newtx/txexs.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t
+xmia.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2016/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (59 pages, 1429378 bytes).
 PDF statistics:
- 1587 PDF objects out of 1728 (max. 8388607)
- 1169 compressed objects within 12 object streams
- 200 named destinations out of 1000 (max. 500000)
- 572 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2256 PDF objects out of 2487 (max. 8388607)
+ 1349 compressed objects within 14 object streams
+ 226 named destinations out of 1000 (max. 500000)
+ 686 words of extra memory for PDF output out of 10000 (max. 10000000)
 
