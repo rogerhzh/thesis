@@ -41,7 +41,7 @@
 % 设定文档的基本信息。
 \pkuthssinfo{
 	cthesisname = {硕士研究生学位论文}, ethesisname = {Master Thesis},
-	ctitle = {CAPS：基于部分共享的高速缓存分配优化}, etitle = {CAPS: Cache Allocation with Partial Sharing},
+	ctitle = {基于部分共享的高速缓存分配优化}, etitle = {Cache Allocation with Partial Sharing},
 	cauthor = {黄子翚},
 	eauthor = {Huang Zihui},
 	studentid = {1401214258},
@@ -50,7 +50,7 @@
 	cmajor = {计算机软件与理论}, emajor = {Computer Science},
 	direction = {系统虚拟化技术},
 	cmentor = {罗英伟教授}, ementor = {Prof.\ Luo Yingwei},
-	ckeywords = {多核，高速缓存分配技术，部分共享，优化}, ekeywords = {Multicore, CAT, Partial-sharing, Optimization}
+	ckeywords = {高速缓存，多核，分配优化，部分共享}, ekeywords = {CAT, Multicore, Optimization, Partial-sharing}
 }
 % 载入参考文献数据库（注意不要省略“.bib”）。
 \addbibresource{thesis.bib}
@@ -101,8 +101,7 @@
 	\include{chap/introduction}
 	% 各章节。
 	\include{chap/related}
-	\include{chap/prediction}
-	\include{chap/allocation}
+	\include{chap/design}
 	\include{chap/evaluation}
 	% 结论。
 	\include{chap/conclusion}

@@ -13,7 +13,7 @@ CAPS预测模型可以较为准确地预测出，多个并发执行的程序在�
 
 
 \section{离线采样分析} \label{sec:prediction_sample}
-本节中，我们将介绍如何通过PIN这一工具离线采样得到程序的MRC和API。研究者们对于如何获取MRC进行了大量的研究，在CAPS中，我们借鉴了基于平均失效时间（Average Eviction Time，AET）的技术~\parencite{hu2016kinect}。任何MRC采样技术都需要程序的访存序列，它是构建MRC的基础。在本文中，我们使用PIN~\parencite{luk2005pin}这一工具对访存序列进行追踪。
+本节中，我们将介绍如何通过PIN这一工具离线采样得到程序的MRC。研究者们对于如何获取MRC进行了大量的研究，在CAPS中，我们借鉴了基于平均失效时间（Average Eviction Time，AET）的技术~\parencite{hu2016kinect}。任何MRC采样技术都需要程序的访存序列，它是构建MRC的基础。在本文中，我们使用PIN~\parencite{luk2005pin}这一工具对访存序列进行追踪。
 
 Pin是一款针对x86 指令系统的二进制代码分析工具（Binary Instrumentation Tool）。它能够在不改变原有程序执行逻辑的前提下，在该程序的任何指令前后插入用户自定义的代码片段。Pin 包含引擎（PinEngine）和工具（PinTools）两个部分。PinEngine是一个不开源的可执行程序，是其核心部分，它负责完成二进制代码解析和改写。PinTools是由用户自己编写的一些函数库，定义了代码替换的具体规则、以及要插入的代码片段。当Pin执行时，PinTools 会以模块的形式被动态链接到PinEngine中，二者协同完成整个代码替换。
 
@@ -24,7 +24,7 @@ Pin与AET结合构建MRC的工作流程如下：
 \item PinEngine 将修改后的代码片段载入其执行缓存，并跳转执行它。
 \item 执行到访存指令时，修改后的代码片段自动调用先前插入的指令回调函数filter\_memop()，且PinEngine会计算出该指令的指令指针ip和被访问的内存地址ea，作为参数传递给回调函数。在少数情况下，如果该代码片段试图跳转到未翻译的程序代码，则Pin将获得控制权，并跳回步骤2。
 \item filter\_memop()的行为非常简单，它只是将ip和ea两个参数放入存放访存序列的缓冲区中（图中的Memory Trace），并返回步骤4继续执行代码片段。只有当缓冲区将要溢出时，才跳转到步骤6。
-\item 当被测试的基准程序执行完毕或执行到指定时间点后，输出访存序列和访存指令占比（API）。
+\item 当被测试的基准程序执行完毕或执行到指定时间点后，输出访存序列。
 \item 利用AET方法，输出最终的缓存失效曲线MRC。
 \end{enumerate}
 

@@ -2,7 +2,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}序言}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}研究背景和目标}{5}{chapter.2}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}研究背景与相关研究}{5}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}高速缓存的相关概念}{5}{section.2.1}
 \defcounter {refsection}{0}\relax 
@@ -10,42 +10,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}英特尔高速缓存分配技术}{9}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}研究目标}{10}{section.2.4}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}CAPS设计与实现}{11}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}预测模型}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}CAPS综述}{11}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}模型概述}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}预测模型}{12}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}离线采样分析}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}模型概述}{12}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}迭代预测算法}{17}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.2}离线采样分析}{13}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}分配优化}{23}{chapter.4}
+\contentsline {subsection}{\numberline {3.2.3}迭代预测算法}{15}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}算法综述}{23}{section.4.1}
+\contentsline {section}{\numberline {3.3}分配优化}{19}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}优化目标}{23}{section.4.2}
+\contentsline {subsection}{\numberline {3.3.1}算法综述}{19}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}优化算法}{25}{section.4.3}
+\contentsline {subsection}{\numberline {3.3.2}优化目标}{20}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}实验评估}{29}{chapter.5}
+\contentsline {subsection}{\numberline {3.3.3}优化算法}{22}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}实验方法}{29}{section.5.1}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}实验评估}{27}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}实验结果}{31}{section.5.2}
+\contentsline {section}{\numberline {4.1}实验方法}{27}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}不同核数的评估分析}{32}{section.5.3}
+\contentsline {section}{\numberline {4.2}综合评估}{29}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}工作负载差异性的评估分析}{34}{section.5.4}
+\contentsline {section}{\numberline {4.3}不同核数的评估分析}{30}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}个案分析}{36}{section.5.5}
+\contentsline {section}{\numberline {4.4}工作负载差异性的评估分析}{32}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结}{39}{chapter.6}
+\contentsline {section}{\numberline {4.5}个案分析}{34}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{41}{appendix*.19}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}总结}{37}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{45}{appendix.A}
+\contentsline {chapter}{参考文献}{39}{appendix*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{47}{appendix*.20}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{43}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{49}{appendix*.21}
+\contentsline {chapter}{致谢}{45}{appendix*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{47}{appendix*.21}
