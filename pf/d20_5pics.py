@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 max_yticks = 6
 yloc = plt.MaxNLocator(max_yticks)
-fig =  plt.subplots(figsize=(120,20))
+fig =  plt.subplots(figsize=(120,25))
 ax = plt.subplot()
 
 n_groups = 25
@@ -87,7 +87,7 @@ plt.close()
 #newax.spines['bottom'].set_position(('outward', 40))
 #newax.grid(b=True,which = 'minor',linestyle ='--')
 yloc = plt.MaxNLocator(max_yticks)
-fig =  plt.subplots(figsize=(120,15))
+fig =  plt.subplots(figsize=(120,25))
 ax = plt.subplot()
 
 n_groups = 25
@@ -158,7 +158,7 @@ plt.close()
 #newax.spines['bottom'].set_position(('outward', 40))
 #newax.grid(b=True,which = 'minor',linestyle ='--')
 yloc = plt.MaxNLocator(max_yticks)
-fig =  plt.subplots(figsize=(120,15))
+fig =  plt.subplots(figsize=(120,25))
 ax = plt.subplot()
 
 n_groups = 25
@@ -228,7 +228,7 @@ plt.close()
 #newax.spines['bottom'].set_position(('outward', 40))
 #newax.grid(b=True,which = 'minor',linestyle ='--')
 yloc = plt.MaxNLocator(max_yticks)
-fig =  plt.subplots(figsize=(120,15))
+fig =  plt.subplots(figsize=(120,25))
 ax = plt.subplot()
 
 n_groups = 25
@@ -298,7 +298,7 @@ plt.close()
 #newax.spines['bottom'].set_position(('outward', 40))
 #newax.grid(b=True,which = 'minor',linestyle ='--')
 yloc = plt.MaxNLocator(max_yticks)
-fig =  plt.subplots(figsize=(120,15))
+fig =  plt.subplots(figsize=(120,25))
 ax = plt.subplot()
 
 n_groups = 25
