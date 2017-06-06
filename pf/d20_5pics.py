@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 max_yticks = 6
 yloc = plt.MaxNLocator(max_yticks)
-fig =  plt.subplots(figsize=(120,15))
+fig =  plt.subplots(figsize=(120,20))
 ax = plt.subplot()
 
 n_groups = 25
@@ -71,7 +71,7 @@ ax.set_xticklabels(xlbls_2,size=100)
 #ax.tick_params( axis='x', direction='out',length = 18,which ='minor' )
 #newax.tick_params( axis='x', direction='in',length = 40,which ='minor' )
 #newax.tick_params( axis='x', direction='in',length = 0,which ='major' )
-ax.legend(loc='upper center',fontsize=95,bbox_to_anchor=((0.5, 1.09)),
+ax.legend(loc='upper center',fontsize=111,bbox_to_anchor=((0.5, 1.09)),
           fancybox=True, shadow=True, ncol=3)
 plt.tight_layout()
 plt.savefig('d20_miss.pdf')
@@ -138,7 +138,7 @@ ax.yaxis.set_major_locator(yloc)
 ax.set_xticks(xticks_2)
 plt.yticks(size = 100)
 ax.set_xticklabels(xlbls_2,size=100)
-ax.legend(loc='upper center',fontsize=95,bbox_to_anchor=((0.5, 1.09)),
+ax.legend(loc='upper center',fontsize=111,bbox_to_anchor=((0.5, 1.09)),
           fancybox=True, shadow=True, ncol=3)
 plt.tight_layout()
 plt.savefig('d20_ipc.pdf')
@@ -208,7 +208,7 @@ ax.axis([0,25,1,1.7])
 ax.set_xticks(xticks_2)
 plt.yticks(size = 100)
 ax.set_xticklabels(xlbls_2,size=100)
-ax.legend(loc='upper center',fontsize=95,bbox_to_anchor=((0.5, 1.09)),
+ax.legend(loc='upper center',fontsize=111,bbox_to_anchor=((0.5, 1.09)),
           fancybox=True, shadow=True, ncol=3)
 plt.tight_layout()
 plt.savefig('d20_ws.pdf')
@@ -278,7 +278,7 @@ ax.axis([0,25,1,4])
 ax.set_xticks(xticks_2)
 plt.yticks(size = 100)
 ax.set_xticklabels(xlbls_2,size=100)
-ax.legend(loc='upper center',fontsize=95,bbox_to_anchor=((0.5, 1.09)),
+ax.legend(loc='upper center',fontsize=111,bbox_to_anchor=((0.5, 1.09)),
           fancybox=True, shadow=True, ncol=3)
 plt.tight_layout()
 plt.savefig('d20_ms.pdf')
@@ -353,7 +353,7 @@ ax.set_xticklabels(xlbls_2,size=100)
 #newax.tick_params( axis='x', direction='in',length = 40,which ='minor' )
 #newax.tick_params( axis='x', direction='in',length = 0,which ='major' )
 
-ax.legend(loc='upper center',fontsize=95,bbox_to_anchor=((0.5, 1.09)),
+ax.legend(loc='upper center',fontsize=111,bbox_to_anchor=((0.5, 1.09)),
           fancybox=True, shadow=True, ncol=3)
 plt.tight_layout()
 plt.savefig('d20_fs.pdf')

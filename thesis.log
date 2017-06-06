@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  5 JUN 2017 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  6 JUN 2017 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2669,12 +2669,12 @@ Package pdftex.def Info: figures/CLOS.png used on input line 103.
 
 
 
-] <figures/caps_overview.png, id=645, 15.77187pt x 13.7313pt>
+] <figures/caps_overview.png, id=645, 192.70796pt x 93.3367pt>
 File: figures/caps_overview.png Graphic file (type png)
 
 <use figures/caps_overview.png>
 Package pdftex.def Info: figures/caps_overview.png used on input line 21.
-(pdftex.def)             Requested size: 269.73466pt x 235.16116pt.
+(pdftex.def)             Requested size: 269.73466pt x 130.65622pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.05249pt on input line 29.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.05249> not availabl
@@ -2737,22 +2737,26 @@ File: figures/pin.png Graphic file (type png)
 Package pdftex.def Info: figures/pin.png used on input line 56.
 (pdftex.def)             Requested size: 359.64394pt x 132.89105pt.
 
-[14 <./figures/pin.png>] [15]
-<figures/interval.png, id=697, 276.28821pt x 114.43954pt>
+[14 <./figures/pin.png>]
+<figures/interval.png, id=683, 276.28821pt x 114.43954pt>
 File: figures/interval.png Graphic file (type png)
 
 <use figures/interval.png>
 Package pdftex.def Info: figures/interval.png used on input line 81.
 (pdftex.def)             Requested size: 359.64394pt x 148.96869pt.
+ [15]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 91.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.03374pt on input line 99.
- [16 <./figures/interval.png>] [17] [18]
+ [16 <./figures/interval.png>] [17]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.045pt on input line 156.
 Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyl
 e (quanjiao) on input line 156.
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [19]
 [20]
 Overfull \hbox (23.3903pt too wide) in paragraph at lines 221--222
@@ -2787,7 +2791,15 @@ n/12.045/8d * \C70/rm/m/n/12.045/5f √ \C70/rm/m/n/12.045/7b ó \C70/rm/m/n/12.04
  ’ |\C70/rm/m/n/12.045/ff ^^H|\T1/ntxtlf/m/n/12.045 Lookahead
  []
 
-[23] [24]) [25]
+<figures/opt.png, id=830, 530.75089pt x 381.694pt>
+File: figures/opt.png Graphic file (type png)
+ <use figures/opt.png>
+Package pdftex.def Info: figures/opt.png used on input line 256.
+(pdftex.def)             Requested size: 359.64394pt x 258.65155pt.
+
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+ [23 <./figures/opt.png>] [24]) [25]
 \openout2 = `chap/evaluation.aux'.
 
  (./chap/evaluation.tex [26
@@ -2911,7 +2923,7 @@ n/12.045/62 ^^P|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.045/57 ( \C70/rm/m/n/
 C70/rm/m/n/12.045/90 Ë
  []
 
-[28] <figures/avg_analysis.pdf, id=894, 2890.8pt x 1445.4pt>
+[28] <figures/avg_analysis.pdf, id=897, 2890.8pt x 1445.4pt>
 File: figures/avg_analysis.pdf Graphic file (type pdf)
 
 <use figures/avg_analysis.pdf>
@@ -2929,31 +2941,31 @@ n/12.045/54 å\T1/ntxtlf/m/n/12.045 Maxi-
  []
 
 [29 <./figures/avg_analysis.pdf>]
-<figures/mpki.pdf, id=949, 2890.8pt x 1806.75pt>
+<figures/mpki.pdf, id=952, 2890.8pt x 1806.75pt>
 File: figures/mpki.pdf Graphic file (type pdf)
  <use figures/mpki.pdf>
 Package pdftex.def Info: figures/mpki.pdf used on input line 70.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/ipc.pdf, id=950, 2890.8pt x 1806.75pt>
+<figures/ipc.pdf, id=953, 2890.8pt x 1806.75pt>
 File: figures/ipc.pdf Graphic file (type pdf)
  <use figures/ipc.pdf>
 Package pdftex.def Info: figures/ipc.pdf used on input line 74.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/ws.pdf, id=951, 2890.8pt x 1806.75pt>
+<figures/ws.pdf, id=954, 2890.8pt x 1806.75pt>
 File: figures/ws.pdf Graphic file (type pdf)
  <use figures/ws.pdf>
 Package pdftex.def Info: figures/ws.pdf used on input line 78.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/fs.pdf, id=952, 2890.8pt x 1806.75pt>
+<figures/fs.pdf, id=955, 2890.8pt x 1806.75pt>
 File: figures/fs.pdf Graphic file (type pdf)
  <use figures/fs.pdf>
 Package pdftex.def Info: figures/fs.pdf used on input line 82.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/ms.pdf, id=953, 2890.8pt x 1806.75pt>
+<figures/ms.pdf, id=956, 2890.8pt x 1806.75pt>
 File: figures/ms.pdf Graphic file (type pdf)
  <use figures/ms.pdf>
 Package pdftex.def Info: figures/ms.pdf used on input line 86.
@@ -2990,32 +3002,32 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/ms.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] <figures/d20_miss.pdf, id=1139, 8672.4pt x 1084.05pt>
+>] <figures/d20_miss.pdf, id=1142, 8672.4pt x 1084.05pt>
 File: figures/d20_miss.pdf Graphic file (type pdf)
 
 <use figures/d20_miss.pdf>
 Package pdftex.def Info: figures/d20_miss.pdf used on input line 146.
 (pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
 
-<figures/d20_ipc.pdf, id=1140, 8672.4pt x 1084.05pt>
+<figures/d20_ipc.pdf, id=1143, 8672.4pt x 1084.05pt>
 File: figures/d20_ipc.pdf Graphic file (type pdf)
  <use figures/d20_ipc.pdf>
 Package pdftex.def Info: figures/d20_ipc.pdf used on input line 150.
 (pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
 
-<figures/d20_ws.pdf, id=1141, 8672.4pt x 1084.05pt>
+<figures/d20_ws.pdf, id=1144, 8672.4pt x 1084.05pt>
 File: figures/d20_ws.pdf Graphic file (type pdf)
  <use figures/d20_ws.pdf>
 Package pdftex.def Info: figures/d20_ws.pdf used on input line 154.
 (pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
 
-<figures/d20_fs.pdf, id=1142, 8672.4pt x 1084.05pt>
+<figures/d20_fs.pdf, id=1145, 8672.4pt x 1084.05pt>
 File: figures/d20_fs.pdf Graphic file (type pdf)
  <use figures/d20_fs.pdf>
 Package pdftex.def Info: figures/d20_fs.pdf used on input line 158.
 (pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
 
-<figures/d20_ms.pdf, id=1143, 8672.4pt x 1084.05pt>
+<figures/d20_ms.pdf, id=1146, 8672.4pt x 1084.05pt>
 File: figures/d20_ms.pdf Graphic file (type pdf)
  <use figures/d20_ms.pdf>
 Package pdftex.def Info: figures/d20_ms.pdf used on input line 162.
@@ -3053,19 +3065,19 @@ n/12.045/7c { \C70/rm/m/n/12.045/7a  \C70/rm/m/n/12.045/5e è|\C70/rm/m/n/12.04
 5/30 ^^B| \C70/rm/m/n/12.045/56 ˛[]\T1/ntxtlf/m/n/12.045 4.4[]
  []
 
-<figures/case_study.pdf, id=1341, 3613.5pt x 2168.1pt>
+<figures/case_study.pdf, id=1344, 3613.5pt x 2168.1pt>
 File: figures/case_study.pdf Graphic file (type pdf)
 
 <use figures/case_study.pdf>
 Package pdftex.def Info: figures/case_study.pdf used on input line 179.
 (pdftex.def)             Requested size: 427.07419pt x 256.22395pt.
- <figures/occ.pdf, id=1342, 2890.8pt x 1445.4pt>
+ <figures/occ.pdf, id=1345, 2890.8pt x 1445.4pt>
 File: figures/occ.pdf Graphic file (type pdf)
 
 <use figures/occ.pdf>
 Package pdftex.def Info: figures/occ.pdf used on input line 186.
 (pdftex.def)             Requested size: 404.59515pt x 202.28845pt.
- <figures/case_ipc.pdf, id=1343, 2890.8pt x 2890.8pt>
+ <figures/case_ipc.pdf, id=1346, 2890.8pt x 2890.8pt>
 File: figures/case_ipc.pdf Graphic file (type pdf)
 
 <use figures/case_ipc.pdf>
@@ -3193,17 +3205,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F33D8C48CA3E9BD793ABB2C7DEE0D5F3;2824.
+(rerunfilecheck)             Checksum: 553FDAAE6954B8FA493E91920D94C0BD;2824.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46303 strings out of 493013
- 833235 string characters out of 6136993
- 1196458 words of memory out of 5000000
- 48267 multiletter control sequences out of 15000+600000
- 211209 words of font info for 507 fonts, out of 8000000 for 9000
+ 46317 strings out of 493013
+ 833489 string characters out of 6136993
+ 1195508 words of memory out of 5000000
+ 48276 multiletter control sequences out of 15000+600000
+ 212019 words of font info for 510 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,102p,10459b,1417s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simsun.ttc>{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-
@@ -3291,10 +3303,10 @@ b><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2
 lic/txfonts/txmia.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/tx
 sya.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texl
 ive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (55 pages, 1697539 bytes).
+Output written on thesis.pdf (55 pages, 3381663 bytes).
 PDF statistics:
- 2217 PDF objects out of 2487 (max. 8388607)
- 1319 compressed objects within 14 object streams
- 217 named destinations out of 1000 (max. 500000)
- 691 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2220 PDF objects out of 2487 (max. 8388607)
+ 1321 compressed objects within 14 object streams
+ 218 named destinations out of 1000 (max. 500000)
+ 696 words of extra memory for PDF output out of 10000 (max. 10000000)
 
