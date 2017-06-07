@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  6 JUN 2017 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.21)  7 JUN 2017 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2466,13 +2466,13 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 [1
 
 
-] <figures/scheme.pdf, id=446, 578.16pt x 722.7pt>
+] <figures/scheme.pdf, id=443, 578.16pt x 722.7pt>
 File: figures/scheme.pdf Graphic file (type pdf)
  <use figures/scheme.pdf>
 Package pdftex.def Info: figures/scheme.pdf used on input line 22.
 (pdftex.def)             Requested size: 161.83559pt x 202.28845pt.
 
-<figures/throughput.pdf, id=447, 578.16pt x 722.7pt>
+<figures/throughput.pdf, id=444, 578.16pt x 722.7pt>
 File: figures/throughput.pdf Graphic file (type pdf)
 
 <use figures/throughput.pdf>
@@ -2536,7 +2536,7 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 15.05624pt on input line 5.
-<figures/CacheHierarchy.jpg, id=537, 741.77126pt x 386.44376pt>
+<figures/CacheHierarchy.jpg, id=534, 741.77126pt x 386.44376pt>
 File: figures/CacheHierarchy.jpg Graphic file (type jpg)
 
 <use figures/CacheHierarchy.jpg>
@@ -2573,21 +2573,21 @@ ff ^^H|\T1/ntxtlf/m/n/12.045 Associativity|\C70/rm/m/n/12.045/ff 	|
 
 
 
-] <figures/CacheAsso1.png, id=549, 172.39406pt x 226.59656pt>
+] <figures/CacheAsso1.png, id=546, 172.39406pt x 226.59656pt>
 File: figures/CacheAsso1.png Graphic file (type png)
 
 <use figures/CacheAsso1.png>
 Package pdftex.def Info: figures/CacheAsso1.png used on input line 37.
 (pdftex.def)             Requested size: 97.10504pt x 127.63658pt.
 
-<figures/CacheAsso2.png, id=551, 170.88844pt x 225.84375pt>
+<figures/CacheAsso2.png, id=548, 170.88844pt x 225.84375pt>
 File: figures/CacheAsso2.png Graphic file (type png)
 
 <use figures/CacheAsso2.png>
 Package pdftex.def Info: figures/CacheAsso2.png used on input line 41.
 (pdftex.def)             Requested size: 97.10504pt x 128.33597pt.
 
-<figures/CacheAsso3.png, id=552, 368.1253pt x 226.59656pt>
+<figures/CacheAsso3.png, id=549, 368.1253pt x 226.59656pt>
 File: figures/CacheAsso3.png Graphic file (type png)
 
 <use figures/CacheAsso3.png>
@@ -2654,7 +2654,7 @@ m/n/12.045/52 ^^F \C70/rm/m/n/12.045/91 M \C70/rm/m/n/12.045/67 	\T1/ntxtlf/m/n
 |\C70/rm/m/n/12.045/ff ^^L| \T1/ntxtlf/m/n/12.045 CLOS[2]
  []
 
-<figures/CLOS.png, id=600, 328.22626pt x 98.16675pt>
+<figures/CLOS.png, id=597, 328.22626pt x 98.16675pt>
 File: figures/CLOS.png Graphic file (type png)
  <use figures/CLOS.png>
 Package pdftex.def Info: figures/CLOS.png used on input line 103.
@@ -2669,7 +2669,7 @@ Package pdftex.def Info: figures/CLOS.png used on input line 103.
 
 
 
-] <figures/caps_overview.png, id=645, 192.70796pt x 93.3367pt>
+] <figures/caps_overview.png, id=642, 192.70796pt x 93.3367pt>
 File: figures/caps_overview.png Graphic file (type png)
 
 <use figures/caps_overview.png>
@@ -2731,14 +2731,14 @@ n/12.045/4e ä \C70/rm/m/n/12.045/65 ö|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12
 xtlf/m/n/12.045 memop()|\C70/rm/m/n/12.045/ff ^^L|
  []
 
-<figures/pin.png, id=663, 874.01532pt x 322.95656pt>
+<figures/pin.png, id=660, 874.01532pt x 322.95656pt>
 File: figures/pin.png Graphic file (type png)
  <use figures/pin.png>
 Package pdftex.def Info: figures/pin.png used on input line 56.
 (pdftex.def)             Requested size: 359.64394pt x 132.89105pt.
 
 [14 <./figures/pin.png>]
-<figures/interval.png, id=683, 276.28821pt x 114.43954pt>
+<figures/interval.png, id=680, 276.28821pt x 114.43954pt>
 File: figures/interval.png Graphic file (type png)
 
 <use figures/interval.png>
@@ -2791,7 +2791,7 @@ n/12.045/8d * \C70/rm/m/n/12.045/5f Ã \C70/rm/m/n/12.045/7b — \C70/rm/m/n/12.04
  Õ |\C70/rm/m/n/12.045/ff ^^H|\T1/ntxtlf/m/n/12.045 Lookahead
  []
 
-<figures/opt.png, id=830, 530.75089pt x 381.694pt>
+<figures/opt.png, id=827, 530.75089pt x 381.694pt>
 File: figures/opt.png Graphic file (type png)
  <use figures/opt.png>
 Package pdftex.def Info: figures/opt.png used on input line 256.
@@ -2923,7 +2923,7 @@ n/12.045/62 ^^P|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.045/57 ( \C70/rm/m/n/
 C70/rm/m/n/12.045/90 è
  []
 
-[28] <figures/avg_analysis.pdf, id=897, 2890.8pt x 1445.4pt>
+[28] <figures/avg_analysis.pdf, id=894, 2890.8pt x 1445.4pt>
 File: figures/avg_analysis.pdf Graphic file (type pdf)
 
 <use figures/avg_analysis.pdf>
@@ -2941,31 +2941,31 @@ n/12.045/54 Œ\T1/ntxtlf/m/n/12.045 Maxi-
  []
 
 [29 <./figures/avg_analysis.pdf>]
-<figures/mpki.pdf, id=952, 2890.8pt x 1806.75pt>
+<figures/mpki.pdf, id=949, 2890.8pt x 1806.75pt>
 File: figures/mpki.pdf Graphic file (type pdf)
  <use figures/mpki.pdf>
 Package pdftex.def Info: figures/mpki.pdf used on input line 70.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/ipc.pdf, id=953, 2890.8pt x 1806.75pt>
+<figures/ipc.pdf, id=950, 2890.8pt x 1806.75pt>
 File: figures/ipc.pdf Graphic file (type pdf)
  <use figures/ipc.pdf>
 Package pdftex.def Info: figures/ipc.pdf used on input line 74.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/ws.pdf, id=954, 2890.8pt x 1806.75pt>
+<figures/ws.pdf, id=951, 2890.8pt x 1806.75pt>
 File: figures/ws.pdf Graphic file (type pdf)
  <use figures/ws.pdf>
 Package pdftex.def Info: figures/ws.pdf used on input line 78.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/fs.pdf, id=955, 2890.8pt x 1806.75pt>
+<figures/fs.pdf, id=952, 2890.8pt x 1806.75pt>
 File: figures/fs.pdf Graphic file (type pdf)
  <use figures/fs.pdf>
 Package pdftex.def Info: figures/fs.pdf used on input line 82.
 (pdftex.def)             Requested size: 202.29758pt x 126.43028pt.
 
-<figures/ms.pdf, id=956, 2890.8pt x 1806.75pt>
+<figures/ms.pdf, id=953, 2890.8pt x 1806.75pt>
 File: figures/ms.pdf Graphic file (type pdf)
  <use figures/ms.pdf>
 Package pdftex.def Info: figures/ms.pdf used on input line 86.
@@ -3002,36 +3002,36 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/ms.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] <figures/d20_miss.pdf, id=1142, 8672.4pt x 1084.05pt>
+>] <figures/d20_miss.pdf, id=1139, 8672.4pt x 1806.75pt>
 File: figures/d20_miss.pdf Graphic file (type pdf)
 
 <use figures/d20_miss.pdf>
 Package pdftex.def Info: figures/d20_miss.pdf used on input line 146.
-(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+(pdftex.def)             Requested size: 449.55322pt x 93.65103pt.
 
-<figures/d20_ipc.pdf, id=1143, 8672.4pt x 1084.05pt>
+<figures/d20_ipc.pdf, id=1140, 8672.4pt x 1806.75pt>
 File: figures/d20_ipc.pdf Graphic file (type pdf)
  <use figures/d20_ipc.pdf>
 Package pdftex.def Info: figures/d20_ipc.pdf used on input line 150.
-(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+(pdftex.def)             Requested size: 449.55322pt x 93.65103pt.
 
-<figures/d20_ws.pdf, id=1144, 8672.4pt x 1084.05pt>
+<figures/d20_ws.pdf, id=1141, 8672.4pt x 1806.75pt>
 File: figures/d20_ws.pdf Graphic file (type pdf)
  <use figures/d20_ws.pdf>
 Package pdftex.def Info: figures/d20_ws.pdf used on input line 154.
-(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+(pdftex.def)             Requested size: 449.55322pt x 93.65103pt.
 
-<figures/d20_fs.pdf, id=1145, 8672.4pt x 1084.05pt>
+<figures/d20_fs.pdf, id=1142, 8672.4pt x 1806.75pt>
 File: figures/d20_fs.pdf Graphic file (type pdf)
  <use figures/d20_fs.pdf>
 Package pdftex.def Info: figures/d20_fs.pdf used on input line 158.
-(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+(pdftex.def)             Requested size: 449.55322pt x 93.65103pt.
 
-<figures/d20_ms.pdf, id=1146, 8672.4pt x 1084.05pt>
+<figures/d20_ms.pdf, id=1143, 8672.4pt x 1806.75pt>
 File: figures/d20_ms.pdf Graphic file (type pdf)
  <use figures/d20_ms.pdf>
 Package pdftex.def Info: figures/d20_ms.pdf used on input line 162.
-(pdftex.def)             Requested size: 427.07419pt x 53.3786pt.
+(pdftex.def)             Requested size: 449.55322pt x 93.65103pt.
 
 [32] [33 <./figures/d20_miss.pdf> <./figures/d20_ipc.pdf
 
@@ -3065,19 +3065,19 @@ n/12.045/7c { \C70/rm/m/n/12.045/7a  \C70/rm/m/n/12.045/5e |\C70/rm/m/n/12.04
 5/30 ^^B| \C70/rm/m/n/12.045/56 þ[]\T1/ntxtlf/m/n/12.045 4.4[]
  []
 
-<figures/case_study.pdf, id=1344, 3613.5pt x 2168.1pt>
+<figures/case_study.pdf, id=1341, 3613.5pt x 2168.1pt>
 File: figures/case_study.pdf Graphic file (type pdf)
 
 <use figures/case_study.pdf>
 Package pdftex.def Info: figures/case_study.pdf used on input line 179.
 (pdftex.def)             Requested size: 427.07419pt x 256.22395pt.
- <figures/occ.pdf, id=1345, 2890.8pt x 1445.4pt>
+ <figures/occ.pdf, id=1342, 2890.8pt x 1445.4pt>
 File: figures/occ.pdf Graphic file (type pdf)
 
 <use figures/occ.pdf>
 Package pdftex.def Info: figures/occ.pdf used on input line 186.
 (pdftex.def)             Requested size: 404.59515pt x 202.28845pt.
- <figures/case_ipc.pdf, id=1346, 2890.8pt x 2890.8pt>
+ <figures/case_ipc.pdf, id=1343, 2890.8pt x 2890.8pt>
 File: figures/case_ipc.pdf Graphic file (type pdf)
 
 <use figures/case_ipc.pdf>
@@ -3211,11 +3211,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46317 strings out of 493013
- 833489 string characters out of 6136993
- 1195508 words of memory out of 5000000
- 48276 multiletter control sequences out of 15000+600000
- 212019 words of font info for 510 fonts, out of 8000000 for 9000
+ 46305 strings out of 493013
+ 833291 string characters out of 6136993
+ 1196505 words of memory out of 5000000
+ 48270 multiletter control sequences out of 15000+600000
+ 211209 words of font info for 507 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,102p,10459b,1417s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simsun.ttc>{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-
@@ -3279,34 +3279,33 @@ S/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf
 ><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/
 simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WIN
 DOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.
-ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fon
-ts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/W
-INDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang
-.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fon
-ts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WIN
+ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/font
+s/simhei.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WI
+NDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.t
+tf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/
+simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOW
+S/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c
+:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhe
+i.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fon
+ts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WIN
 DOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf
 ><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/si
-mhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/
-fonts/simhei.ttf><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/
-WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.
-ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts
-/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDOWS/fonts/simhei.ttf><c:/WINDO
-WS/fonts/simhei.ttf><c:/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhv
-b.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texl
-ive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2016/texmf
--dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/public/newtx/rntxmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/ne
-wtx/rntxmi7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pf
-b><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2
-016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2016/texmf-dist
-/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/txfonts/txmia.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/tx
-sya.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texl
-ive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (55 pages, 3381663 bytes).
+mhei.ttf><c:/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2016/te
+xmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2016/texmf-dist/fonts
+/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
+/newtx/rntxmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7
+.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texli
+ve/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2016/texmf-dist/fonts/type
+1/public/newtx/txexs.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts
+/txmia.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2016/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (55 pages, 3376033 bytes).
 PDF statistics:
- 2220 PDF objects out of 2487 (max. 8388607)
- 1321 compressed objects within 14 object streams
+ 2208 PDF objects out of 2487 (max. 8388607)
+ 1312 compressed objects within 14 object streams
  218 named destinations out of 1000 (max. 500000)
  696 words of extra memory for PDF output out of 10000 (max. 10000000)
 
